@@ -1,0 +1,4080 @@
+% Created by tikzDevice version 0.10.1 on 2017-09-29 08:31:35
+% !TEX encoding = UTF-8 Unicode
+\definecolor{fillColor}{RGB}{255,255,255}
+\path[use as bounding box,fill=fillColor,fill opacity=0.00] (0,0) rectangle (505.89,505.89);
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (505.89,505.89);
+\definecolor{drawColor}{RGB}{255,255,255}
+\definecolor{fillColor}{RGB}{255,255,255}
+
+\path[draw=drawColor,line width= 0.6pt,line join=round,line cap=round,fill=fillColor] (  0.00,  0.00) rectangle (505.89,505.89);
+\end{scope}
+\begin{scope}
+\path[clip] ( 37.20, 29.59) rectangle (452.88,500.39);
+\definecolor{fillColor}{RGB}{255,255,255}
+
+\path[fill=fillColor] ( 37.20, 29.59) rectangle (452.88,500.39);
+\definecolor{drawColor}{gray}{0.92}
+
+\path[draw=drawColor,line width= 0.3pt,line join=round] ( 37.20,103.87) --
+	(452.88,103.87);
+
+\path[draw=drawColor,line width= 0.3pt,line join=round] ( 37.20,211.25) --
+	(452.88,211.25);
+
+\path[draw=drawColor,line width= 0.3pt,line join=round] ( 37.20,318.62) --
+	(452.88,318.62);
+
+\path[draw=drawColor,line width= 0.3pt,line join=round] ( 37.20,425.99) --
+	(452.88,425.99);
+
+\path[draw=drawColor,line width= 0.3pt,line join=round] (103.38, 29.59) --
+	(103.38,500.39);
+
+\path[draw=drawColor,line width= 0.3pt,line join=round] (197.96, 29.59) --
+	(197.96,500.39);
+
+\path[draw=drawColor,line width= 0.3pt,line join=round] (292.54, 29.59) --
+	(292.54,500.39);
+
+\path[draw=drawColor,line width= 0.3pt,line join=round] (387.13, 29.59) --
+	(387.13,500.39);
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] ( 37.20, 50.19) --
+	(452.88, 50.19);
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] ( 37.20,157.56) --
+	(452.88,157.56);
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] ( 37.20,264.93) --
+	(452.88,264.93);
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] ( 37.20,372.31) --
+	(452.88,372.31);
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] ( 37.20,479.68) --
+	(452.88,479.68);
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] ( 56.09, 29.59) --
+	( 56.09,500.39);
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] (150.67, 29.59) --
+	(150.67,500.39);
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] (245.25, 29.59) --
+	(245.25,500.39);
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] (339.83, 29.59) --
+	(339.83,500.39);
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] (434.42, 29.59) --
+	(434.42,500.39);
+\definecolor{fillColor}{RGB}{0,0,0}
+
+\path[fill=fillColor] (390.23, 60.98) circle (  1.96);
+
+\path[fill=fillColor] (243.49,384.30) --
+	(246.14,379.72) --
+	(240.85,379.72) --
+	cycle;
+
+\path[fill=fillColor] (122.12,458.91) --
+	(124.76,454.33) --
+	(119.48,454.33) --
+	cycle;
+
+\path[fill=fillColor] ( 63.79,192.78) --
+	( 66.43,188.21) --
+	( 61.14,188.21) --
+	cycle;
+
+\path[fill=fillColor] ( 93.98,265.95) --
+	( 96.62,261.37) --
+	( 91.34,261.37) --
+	cycle;
+
+\path[fill=fillColor] (290.64,446.07) --
+	(293.28,441.50) --
+	(288.00,441.50) --
+	cycle;
+
+\path[fill=fillColor] (337.55,209.82) circle (  1.96);
+
+\path[fill=fillColor] ( 98.67,420.55) --
+	(101.31,415.97) --
+	( 96.03,415.97) --
+	cycle;
+
+\path[fill=fillColor] (423.88, 82.99) circle (  1.96);
+
+\path[fill=fillColor] (334.30,119.50) circle (  1.96);
+
+\path[fill=fillColor] (283.90, 64.46) circle (  1.96);
+
+\path[fill=fillColor] ( 85.15,305.32) --
+	( 87.79,300.74) --
+	( 82.51,300.74) --
+	cycle;
+
+\path[fill=fillColor] (379.61,180.10) circle (  1.96);
+
+\path[fill=fillColor] (322.30,203.81) circle (  1.96);
+
+\path[fill=fillColor] (109.74,431.35) --
+	(112.38,426.78) --
+	(107.10,426.78) --
+	cycle;
+
+\path[fill=fillColor] (142.11,327.56) --
+	(144.75,322.98) --
+	(139.46,322.98) --
+	cycle;
+
+\path[fill=fillColor] (340.68,145.65) circle (  1.96);
+
+\path[fill=fillColor] (198.53,359.36) --
+	(201.17,354.78) --
+	(195.89,354.78) --
+	cycle;
+
+\path[fill=fillColor] ( 85.17,268.81) --
+	( 87.81,264.23) --
+	( 82.53,264.23) --
+	cycle;
+
+\path[fill=fillColor] (211.57,105.68) circle (  1.96);
+
+\path[fill=fillColor] (356.77, 53.20) circle (  1.96);
+
+\path[fill=fillColor] (102.73,455.82) --
+	(105.37,451.24) --
+	(100.09,451.24) --
+	cycle;
+
+\path[fill=fillColor] (160.28,482.04) --
+	(162.92,477.46) --
+	(157.63,477.46) --
+	cycle;
+
+\path[fill=fillColor] (153.97, 52.63) circle (  1.96);
+
+\path[fill=fillColor] (125.81,248.46) --
+	(128.45,243.88) --
+	(123.17,243.88) --
+	cycle;
+
+\path[fill=fillColor] (145.30,264.91) --
+	(147.94,260.33) --
+	(142.66,260.33) --
+	cycle;
+
+\path[fill=fillColor] ( 59.77,292.93) --
+	( 62.42,288.35) --
+	( 57.13,288.35) --
+	cycle;
+
+\path[fill=fillColor] (115.85,309.71) --
+	(118.50,305.13) --
+	(113.21,305.13) --
+	cycle;
+
+\path[fill=fillColor] (263.39,406.07) --
+	(266.03,401.49) --
+	(260.75,401.49) --
+	cycle;
+
+\path[fill=fillColor] ( 85.83,212.31) --
+	( 88.47,207.74) --
+	( 83.19,207.74) --
+	cycle;
+
+\path[fill=fillColor] (264.85,401.13) --
+	(267.49,396.55) --
+	(262.21,396.55) --
+	cycle;
+
+\path[fill=fillColor] ( 92.03,399.53) --
+	( 94.68,394.96) --
+	( 89.39,394.96) --
+	cycle;
+
+\path[fill=fillColor] (108.03,353.25) --
+	(110.67,348.67) --
+	(105.39,348.67) --
+	cycle;
+
+\path[fill=fillColor] (425.22,145.55) circle (  1.96);
+
+\path[fill=fillColor] (351.26,237.99) circle (  1.96);
+
+\path[fill=fillColor] (373.55,173.09) circle (  1.96);
+
+\path[fill=fillColor] ( 59.27,462.85) --
+	( 61.92,458.28) --
+	( 56.63,458.28) --
+	cycle;
+
+\path[fill=fillColor] (256.08,100.91) circle (  1.96);
+
+\path[fill=fillColor] (321.03, 71.82) circle (  1.96);
+
+\path[fill=fillColor] (419.61,317.23) circle (  1.96);
+
+\path[fill=fillColor] ( 83.25,404.87) --
+	( 85.90,400.29) --
+	( 80.61,400.29) --
+	cycle;
+
+\path[fill=fillColor] (242.31, 55.77) circle (  1.96);
+
+\path[fill=fillColor] (158.50,388.70) --
+	(161.14,384.12) --
+	(155.85,384.12) --
+	cycle;
+
+\path[fill=fillColor] (195.06,333.13) --
+	(197.70,328.55) --
+	(192.42,328.55) --
+	cycle;
+
+\path[fill=fillColor] (113.14,273.16) --
+	(115.79,268.58) --
+	(110.50,268.58) --
+	cycle;
+
+\path[fill=fillColor] (395.10,138.25) circle (  1.96);
+
+\path[fill=fillColor] (187.40,334.03) --
+	(190.04,329.45) --
+	(184.76,329.45) --
+	cycle;
+
+\path[fill=fillColor] (393.90,283.20) circle (  1.96);
+
+\path[fill=fillColor] (410.95, 56.18) circle (  1.96);
+
+\path[fill=fillColor] (271.75,121.57) circle (  1.96);
+
+\path[fill=fillColor] (216.03, 96.10) circle (  1.96);
+
+\path[fill=fillColor] (349.29,203.97) circle (  1.96);
+
+\path[fill=fillColor] (337.53,111.72) circle (  1.96);
+
+\path[fill=fillColor] (101.31,264.72) --
+	(103.95,260.15) --
+	( 98.67,260.15) --
+	cycle;
+
+\path[fill=fillColor] (385.61,186.34) circle (  1.96);
+
+\path[fill=fillColor] (224.76,407.44) --
+	(227.40,402.86) --
+	(222.11,402.86) --
+	cycle;
+
+\path[fill=fillColor] (168.83,357.97) --
+	(171.47,353.39) --
+	(166.18,353.39) --
+	cycle;
+
+\path[fill=fillColor] (103.37,313.75) --
+	(106.01,309.17) --
+	(100.73,309.17) --
+	cycle;
+
+\path[fill=fillColor] (210.86,409.61) --
+	(213.51,405.03) --
+	(208.22,405.03) --
+	cycle;
+
+\path[fill=fillColor] (254.79,148.54) circle (  1.96);
+
+\path[fill=fillColor] (292.21,124.49) circle (  1.96);
+
+\path[fill=fillColor] (364.50,101.74) circle (  1.96);
+
+\path[fill=fillColor] (129.99,428.72) --
+	(132.63,424.14) --
+	(127.35,424.14) --
+	cycle;
+
+\path[fill=fillColor] (208.44, 91.55) circle (  1.96);
+
+\path[fill=fillColor] ( 56.80,360.72) --
+	( 59.45,356.15) --
+	( 54.16,356.15) --
+	cycle;
+
+\path[fill=fillColor] (351.62, 97.59) circle (  1.96);
+
+\path[fill=fillColor] (245.54,459.28) --
+	(248.18,454.70) --
+	(242.90,454.70) --
+	cycle;
+
+\path[fill=fillColor] ( 61.21,312.38) --
+	( 63.86,307.81) --
+	( 58.57,307.81) --
+	cycle;
+
+\path[fill=fillColor] (107.27,356.83) --
+	(109.91,352.25) --
+	(104.62,352.25) --
+	cycle;
+
+\path[fill=fillColor] (298.08,200.40) circle (  1.96);
+
+\path[fill=fillColor] (420.74,202.00) circle (  1.96);
+
+\path[fill=fillColor] (217.42,404.66) --
+	(220.06,400.08) --
+	(214.78,400.08) --
+	cycle;
+
+\path[fill=fillColor] ( 64.97,259.06) --
+	( 67.62,254.48) --
+	( 62.33,254.48) --
+	cycle;
+
+\path[fill=fillColor] (426.81,113.85) circle (  1.96);
+
+\path[fill=fillColor] (144.08,343.13) --
+	(146.72,338.56) --
+	(141.44,338.56) --
+	cycle;
+
+\path[fill=fillColor] (198.77,338.19) --
+	(201.41,333.61) --
+	(196.13,333.61) --
+	cycle;
+
+\path[fill=fillColor] (112.50,337.91) --
+	(115.14,333.34) --
+	(109.86,333.34) --
+	cycle;
+
+\path[fill=fillColor] (118.25,475.05) --
+	(120.89,470.47) --
+	(115.61,470.47) --
+	cycle;
+
+\path[fill=fillColor] (392.60,101.72) circle (  1.96);
+
+\path[fill=fillColor] (424.11,291.82) circle (  1.96);
+
+\path[fill=fillColor] (273.50,463.53) --
+	(276.15,458.95) --
+	(270.86,458.95) --
+	cycle;
+
+\path[fill=fillColor] (429.37,284.26) circle (  1.96);
+
+\path[fill=fillColor] (263.32, 56.89) circle (  1.96);
+
+\path[fill=fillColor] ( 60.66,240.66) --
+	( 63.30,236.09) --
+	( 58.02,236.09) --
+	cycle;
+
+\path[fill=fillColor] (409.41,182.93) circle (  1.96);
+
+\path[fill=fillColor] (354.23,204.52) circle (  1.96);
+
+\path[fill=fillColor] ( 57.67,468.27) --
+	( 60.31,463.69) --
+	( 55.03,463.69) --
+	cycle;
+
+\path[fill=fillColor] (423.53,179.47) circle (  1.96);
+
+\path[fill=fillColor] (201.71, 52.20) circle (  1.96);
+
+\path[fill=fillColor] ( 79.91,371.82) --
+	( 82.55,367.25) --
+	( 77.26,367.25) --
+	cycle;
+
+\path[fill=fillColor] ( 82.76,273.14) --
+	( 85.40,268.56) --
+	( 80.11,268.56) --
+	cycle;
+
+\path[fill=fillColor] (215.99, 81.12) circle (  1.96);
+
+\path[fill=fillColor] (140.61,442.42) --
+	(143.26,437.84) --
+	(137.97,437.84) --
+	cycle;
+
+\path[fill=fillColor] (360.31, 62.85) circle (  1.96);
+
+\path[fill=fillColor] (283.31,456.11) --
+	(285.95,451.53) --
+	(280.67,451.53) --
+	cycle;
+
+\path[fill=fillColor] (149.03,426.48) --
+	(151.67,421.91) --
+	(146.39,421.91) --
+	cycle;
+
+\path[fill=fillColor] (399.20, 71.23) circle (  1.96);
+
+\path[fill=fillColor] (217.40,454.78) --
+	(220.04,450.20) --
+	(214.76,450.20) --
+	cycle;
+
+\path[fill=fillColor] ( 95.25,453.22) --
+	( 97.89,448.65) --
+	( 92.61,448.65) --
+	cycle;
+
+\path[fill=fillColor] ( 94.21,350.74) --
+	( 96.86,346.16) --
+	( 91.57,346.16) --
+	cycle;
+
+\path[fill=fillColor] (329.62,477.71) --
+	(332.26,473.14) --
+	(326.97,473.14) --
+	cycle;
+
+\path[fill=fillColor] ( 65.38,306.67) --
+	( 68.03,302.09) --
+	( 62.74,302.09) --
+	cycle;
+
+\path[fill=fillColor] (253.55, 61.65) circle (  1.96);
+
+\path[fill=fillColor] (422.37,298.63) circle (  1.96);
+
+\path[fill=fillColor] (295.00, 58.54) circle (  1.96);
+
+\path[fill=fillColor] (386.47,233.64) circle (  1.96);
+
+\path[fill=fillColor] (104.43,291.47) --
+	(107.07,286.89) --
+	(101.79,286.89) --
+	cycle;
+
+\path[fill=fillColor] ( 63.67,281.37) --
+	( 66.31,276.80) --
+	( 61.02,276.80) --
+	cycle;
+
+\path[fill=fillColor] (182.50,361.36) --
+	(185.15,356.78) --
+	(179.86,356.78) --
+	cycle;
+
+\path[fill=fillColor] (268.76,479.75) --
+	(271.40,475.17) --
+	(266.12,475.17) --
+	cycle;
+
+\path[fill=fillColor] (186.38,457.32) --
+	(189.02,452.74) --
+	(183.73,452.74) --
+	cycle;
+
+\path[fill=fillColor] (431.77,320.87) circle (  1.96);
+
+\path[fill=fillColor] (235.78,123.10) circle (  1.96);
+
+\path[fill=fillColor] ( 58.17,385.73) --
+	( 60.81,381.15) --
+	( 55.53,381.15) --
+	cycle;
+
+\path[fill=fillColor] (161.23, 59.66) circle (  1.96);
+
+\path[fill=fillColor] (112.36,340.60) --
+	(115.00,336.02) --
+	(109.72,336.02) --
+	cycle;
+
+\path[fill=fillColor] (411.26,213.69) circle (  1.96);
+
+\path[fill=fillColor] (374.10, 74.14) circle (  1.96);
+
+\path[fill=fillColor] (243.94,153.26) circle (  1.96);
+
+\path[fill=fillColor] ( 61.69,355.79) --
+	( 64.33,351.21) --
+	( 59.05,351.21) --
+	cycle;
+
+\path[fill=fillColor] (147.15,292.81) --
+	(149.79,288.23) --
+	(144.51,288.23) --
+	cycle;
+
+\path[fill=fillColor] (245.53,109.89) circle (  1.96);
+
+\path[fill=fillColor] (280.85,147.55) circle (  1.96);
+
+\path[fill=fillColor] (242.93, 69.80) circle (  1.96);
+
+\path[fill=fillColor] (329.36,206.83) circle (  1.96);
+
+\path[fill=fillColor] (177.32,341.23) --
+	(179.96,336.65) --
+	(174.68,336.65) --
+	cycle;
+
+\path[fill=fillColor] (183.03,439.83) --
+	(185.67,435.26) --
+	(180.39,435.26) --
+	cycle;
+
+\path[fill=fillColor] (384.31, 52.98) circle (  1.96);
+
+\path[fill=fillColor] (103.64,330.62) --
+	(106.29,326.04) --
+	(101.00,326.04) --
+	cycle;
+
+\path[fill=fillColor] (333.66, 79.76) circle (  1.96);
+
+\path[fill=fillColor] (220.49,441.11) --
+	(223.13,436.53) --
+	(217.84,436.53) --
+	cycle;
+
+\path[fill=fillColor] (193.44,359.82) --
+	(196.09,355.24) --
+	(190.80,355.24) --
+	cycle;
+
+\path[fill=fillColor] (114.14,243.52) --
+	(116.78,238.94) --
+	(111.50,238.94) --
+	cycle;
+
+\path[fill=fillColor] (273.83,122.56) circle (  1.96);
+
+\path[fill=fillColor] (296.33,200.45) circle (  1.96);
+
+\path[fill=fillColor] (345.90,223.07) circle (  1.96);
+
+\path[fill=fillColor] (432.45, 58.71) circle (  1.96);
+
+\path[fill=fillColor] ( 85.06,258.25) --
+	( 87.70,253.67) --
+	( 82.41,253.67) --
+	cycle;
+
+\path[fill=fillColor] ( 60.61,396.56) --
+	( 63.25,391.99) --
+	( 57.97,391.99) --
+	cycle;
+
+\path[fill=fillColor] (354.17, 55.65) circle (  1.96);
+
+\path[fill=fillColor] (207.07,372.38) --
+	(209.71,367.80) --
+	(204.43,367.80) --
+	cycle;
+
+\path[fill=fillColor] ( 80.24,338.68) --
+	( 82.88,334.11) --
+	( 77.60,334.11) --
+	cycle;
+
+\path[fill=fillColor] (427.92,217.30) circle (  1.96);
+
+\path[fill=fillColor] (190.05,459.40) --
+	(192.69,454.82) --
+	(187.41,454.82) --
+	cycle;
+
+\path[fill=fillColor] (150.21,407.37) --
+	(152.86,402.80) --
+	(147.57,402.80) --
+	cycle;
+
+\path[fill=fillColor] (429.70,156.16) circle (  1.96);
+
+\path[fill=fillColor] ( 92.36,465.36) --
+	( 95.00,460.78) --
+	( 89.72,460.78) --
+	cycle;
+
+\path[fill=fillColor] (212.07,377.51) --
+	(214.72,372.93) --
+	(209.43,372.93) --
+	cycle;
+
+\path[fill=fillColor] (427.54, 61.85) circle (  1.96);
+
+\path[fill=fillColor] (350.46,171.99) circle (  1.96);
+
+\path[fill=fillColor] (197.14, 70.93) circle (  1.96);
+
+\path[fill=fillColor] (319.96,134.91) circle (  1.96);
+
+\path[fill=fillColor] (142.47,400.26) --
+	(145.11,395.68) --
+	(139.83,395.68) --
+	cycle;
+
+\path[fill=fillColor] (419.88,188.58) circle (  1.96);
+
+\path[fill=fillColor] (333.83,219.15) circle (  1.96);
+
+\path[fill=fillColor] ( 61.41,241.66) --
+	( 64.05,237.09) --
+	( 58.77,237.09) --
+	cycle;
+
+\path[fill=fillColor] ( 81.26,272.14) --
+	( 83.90,267.56) --
+	( 78.61,267.56) --
+	cycle;
+
+\path[fill=fillColor] ( 75.00,447.28) --
+	( 77.64,442.71) --
+	( 72.35,442.71) --
+	cycle;
+
+\path[fill=fillColor] ( 79.13,427.13) --
+	( 81.78,422.55) --
+	( 76.49,422.55) --
+	cycle;
+
+\path[fill=fillColor] (322.31, 84.00) circle (  1.96);
+
+\path[fill=fillColor] (429.24,190.50) circle (  1.96);
+
+\path[fill=fillColor] ( 99.15,323.95) --
+	(101.79,319.37) --
+	( 96.51,319.37) --
+	cycle;
+
+\path[fill=fillColor] (426.31,361.34) circle (  1.96);
+
+\path[fill=fillColor] (392.68,171.82) circle (  1.96);
+
+\path[fill=fillColor] (348.02,262.70) circle (  1.96);
+
+\path[fill=fillColor] (427.37,215.57) circle (  1.96);
+
+\path[fill=fillColor] (246.59,458.29) --
+	(249.23,453.72) --
+	(243.94,453.72) --
+	cycle;
+
+\path[fill=fillColor] (136.54,406.57) --
+	(139.18,401.99) --
+	(133.90,401.99) --
+	cycle;
+
+\path[fill=fillColor] (418.29,297.38) circle (  1.96);
+
+\path[fill=fillColor] (253.81,432.14) --
+	(256.46,427.56) --
+	(251.17,427.56) --
+	cycle;
+
+\path[fill=fillColor] (229.31,119.01) circle (  1.96);
+
+\path[fill=fillColor] (227.60, 79.92) circle (  1.96);
+
+\path[fill=fillColor] (362.76,286.71) circle (  1.96);
+
+\path[fill=fillColor] (243.98,402.61) --
+	(246.63,398.03) --
+	(241.34,398.03) --
+	cycle;
+
+\path[fill=fillColor] ( 56.49,203.50) --
+	( 59.13,198.93) --
+	( 53.85,198.93) --
+	cycle;
+
+\path[fill=fillColor] (103.87,302.39) --
+	(106.51,297.81) --
+	(101.23,297.81) --
+	cycle;
+
+\path[fill=fillColor] (413.38,215.25) circle (  1.96);
+
+\path[fill=fillColor] (108.94,466.16) --
+	(111.58,461.58) --
+	(106.29,461.58) --
+	cycle;
+
+\path[fill=fillColor] (126.09,257.44) --
+	(128.73,252.86) --
+	(123.44,252.86) --
+	cycle;
+
+\path[fill=fillColor] (256.60, 95.27) circle (  1.96);
+
+\path[fill=fillColor] (387.24, 71.25) circle (  1.96);
+
+\path[fill=fillColor] (381.80,220.34) circle (  1.96);
+
+\path[fill=fillColor] ( 61.49,214.33) --
+	( 64.14,209.75) --
+	( 58.85,209.75) --
+	cycle;
+
+\path[fill=fillColor] (284.50,166.11) circle (  1.96);
+
+\path[fill=fillColor] (368.06,232.13) circle (  1.96);
+
+\path[fill=fillColor] ( 81.43,472.21) --
+	( 84.07,467.64) --
+	( 78.78,467.64) --
+	cycle;
+
+\path[fill=fillColor] (244.84,150.48) circle (  1.96);
+
+\path[fill=fillColor] (250.70, 75.39) circle (  1.96);
+
+\path[fill=fillColor] (432.93,200.56) circle (  1.96);
+
+\path[fill=fillColor] (373.50,225.22) circle (  1.96);
+
+\path[fill=fillColor] (178.32,349.47) --
+	(180.96,344.89) --
+	(175.68,344.89) --
+	cycle;
+
+\path[fill=fillColor] (252.43, 62.80) circle (  1.96);
+
+\path[fill=fillColor] ( 96.33,214.19) --
+	( 98.97,209.61) --
+	( 93.68,209.61) --
+	cycle;
+
+\path[fill=fillColor] (233.29,384.20) --
+	(235.94,379.62) --
+	(230.65,379.62) --
+	cycle;
+
+\path[fill=fillColor] (113.17,325.33) --
+	(115.81,320.75) --
+	(110.53,320.75) --
+	cycle;
+
+\path[fill=fillColor] (291.91,175.53) circle (  1.96);
+
+\path[fill=fillColor] (361.55,119.07) circle (  1.96);
+
+\path[fill=fillColor] (395.25,173.45) circle (  1.96);
+
+\path[fill=fillColor] (422.72, 81.07) circle (  1.96);
+
+\path[fill=fillColor] (259.81,166.06) circle (  1.96);
+
+\path[fill=fillColor] (133.17,380.79) --
+	(135.81,376.21) --
+	(130.52,376.21) --
+	cycle;
+
+\path[fill=fillColor] (288.40,155.08) circle (  1.96);
+
+\path[fill=fillColor] (247.88,420.79) --
+	(250.53,416.21) --
+	(245.24,416.21) --
+	cycle;
+
+\path[fill=fillColor] (238.72, 67.25) circle (  1.96);
+
+\path[fill=fillColor] (429.23,199.83) circle (  1.96);
+
+\path[fill=fillColor] (301.77,472.61) --
+	(304.41,468.04) --
+	(299.13,468.04) --
+	cycle;
+
+\path[fill=fillColor] (305.83, 87.49) circle (  1.96);
+
+\path[fill=fillColor] (180.45,326.55) --
+	(183.10,321.97) --
+	(177.81,321.97) --
+	cycle;
+
+\path[fill=fillColor] (426.23, 57.43) circle (  1.96);
+
+\path[fill=fillColor] (101.29,356.40) --
+	(103.93,351.83) --
+	( 98.64,351.83) --
+	cycle;
+
+\path[fill=fillColor] (159.35,471.13) --
+	(162.00,466.55) --
+	(156.71,466.55) --
+	cycle;
+
+\path[fill=fillColor] ( 96.05,244.16) --
+	( 98.69,239.58) --
+	( 93.40,239.58) --
+	cycle;
+
+\path[fill=fillColor] (287.42,198.87) circle (  1.96);
+
+\path[fill=fillColor] (360.85,163.45) circle (  1.96);
+
+\path[fill=fillColor] (325.88,469.89) --
+	(328.52,465.31) --
+	(323.24,465.31) --
+	cycle;
+
+\path[fill=fillColor] ( 81.93,480.98) --
+	( 84.58,476.40) --
+	( 79.29,476.40) --
+	cycle;
+
+\path[fill=fillColor] (221.55,360.64) --
+	(224.19,356.06) --
+	(218.91,356.06) --
+	cycle;
+
+\path[fill=fillColor] (379.02,263.59) circle (  1.96);
+
+\path[fill=fillColor] (346.23,101.09) circle (  1.96);
+
+\path[fill=fillColor] (409.60,278.99) circle (  1.96);
+
+\path[fill=fillColor] (416.84,128.25) circle (  1.96);
+
+\path[fill=fillColor] (373.16,293.48) circle (  1.96);
+
+\path[fill=fillColor] (431.53,120.69) circle (  1.96);
+
+\path[fill=fillColor] (186.90, 82.96) circle (  1.96);
+
+\path[fill=fillColor] (187.56,311.11) --
+	(190.20,306.54) --
+	(184.92,306.54) --
+	cycle;
+
+\path[fill=fillColor] (414.86, 65.42) circle (  1.96);
+
+\path[fill=fillColor] (398.93,144.81) circle (  1.96);
+
+\path[fill=fillColor] (103.88,393.88) --
+	(106.52,389.30) --
+	(101.24,389.30) --
+	cycle;
+
+\path[fill=fillColor] (180.04,366.70) --
+	(182.68,362.12) --
+	(177.40,362.12) --
+	cycle;
+
+\path[fill=fillColor] (104.06,280.50) --
+	(106.71,275.92) --
+	(101.42,275.92) --
+	cycle;
+
+\path[fill=fillColor] (305.05,166.31) circle (  1.96);
+
+\path[fill=fillColor] (113.99,450.75) --
+	(116.64,446.17) --
+	(111.35,446.17) --
+	cycle;
+
+\path[fill=fillColor] (241.49,390.78) --
+	(244.13,386.20) --
+	(238.85,386.20) --
+	cycle;
+
+\path[fill=fillColor] (158.38,323.26) --
+	(161.03,318.68) --
+	(155.74,318.68) --
+	cycle;
+
+\path[fill=fillColor] (223.12,422.22) --
+	(225.76,417.64) --
+	(220.48,417.64) --
+	cycle;
+
+\path[fill=fillColor] (401.18,142.43) circle (  1.96);
+
+\path[fill=fillColor] (270.86,140.32) circle (  1.96);
+
+\path[fill=fillColor] (350.10,197.17) circle (  1.96);
+
+\path[fill=fillColor] (373.47,227.65) circle (  1.96);
+
+\path[fill=fillColor] (389.01,177.43) circle (  1.96);
+
+\path[fill=fillColor] ( 90.82,438.72) --
+	( 93.47,434.15) --
+	( 88.18,434.15) --
+	cycle;
+
+\path[fill=fillColor] (250.61, 86.47) circle (  1.96);
+
+\path[fill=fillColor] (289.09,104.90) circle (  1.96);
+
+\path[fill=fillColor] (244.58,457.25) --
+	(247.22,452.67) --
+	(241.94,452.67) --
+	cycle;
+
+\path[fill=fillColor] ( 81.22,216.31) --
+	( 83.86,211.74) --
+	( 78.58,211.74) --
+	cycle;
+
+\path[fill=fillColor] (181.70,340.63) --
+	(184.35,336.05) --
+	(179.06,336.05) --
+	cycle;
+
+\path[fill=fillColor] (405.23,177.37) circle (  1.96);
+
+\path[fill=fillColor] (200.08,376.38) --
+	(202.72,371.80) --
+	(197.43,371.80) --
+	cycle;
+
+\path[fill=fillColor] (198.28,358.63) --
+	(200.92,354.05) --
+	(195.64,354.05) --
+	cycle;
+
+\path[fill=fillColor] (385.92,123.23) circle (  1.96);
+
+\path[fill=fillColor] (370.31,173.86) circle (  1.96);
+
+\path[fill=fillColor] (339.27,159.30) circle (  1.96);
+
+\path[fill=fillColor] (309.26,190.06) circle (  1.96);
+
+\path[fill=fillColor] ( 79.98,265.45) --
+	( 82.62,260.87) --
+	( 77.34,260.87) --
+	cycle;
+
+\path[fill=fillColor] (429.35,363.29) circle (  1.96);
+
+\path[fill=fillColor] (207.01, 76.28) circle (  1.96);
+
+\path[fill=fillColor] ( 78.36,268.52) --
+	( 81.01,263.95) --
+	( 75.72,263.95) --
+	cycle;
+
+\path[fill=fillColor] (179.31, 56.88) circle (  1.96);
+
+\path[fill=fillColor] (159.90,371.01) --
+	(162.55,366.43) --
+	(157.26,366.43) --
+	cycle;
+
+\path[fill=fillColor] (409.67,171.25) circle (  1.96);
+
+\path[fill=fillColor] ( 76.66,431.43) --
+	( 79.30,426.85) --
+	( 74.01,426.85) --
+	cycle;
+
+\path[fill=fillColor] (403.82,298.70) circle (  1.96);
+
+\path[fill=fillColor] (359.80, 98.64) circle (  1.96);
+
+\path[fill=fillColor] (296.41,120.19) circle (  1.96);
+
+\path[fill=fillColor] (398.21,163.58) circle (  1.96);
+
+\path[fill=fillColor] (322.44, 83.04) circle (  1.96);
+
+\path[fill=fillColor] (220.43,352.72) --
+	(223.07,348.15) --
+	(217.79,348.15) --
+	cycle;
+
+\path[fill=fillColor] (310.15, 71.67) circle (  1.96);
+
+\path[fill=fillColor] (401.78,213.78) circle (  1.96);
+
+\path[fill=fillColor] ( 91.82,447.28) --
+	( 94.46,442.70) --
+	( 89.17,442.70) --
+	cycle;
+
+\path[fill=fillColor] (419.81,245.83) circle (  1.96);
+
+\path[fill=fillColor] ( 78.65,257.88) --
+	( 81.29,253.30) --
+	( 76.01,253.30) --
+	cycle;
+
+\path[fill=fillColor] (175.26,401.39) --
+	(177.90,396.82) --
+	(172.62,396.82) --
+	cycle;
+
+\path[fill=fillColor] (214.91, 59.54) circle (  1.96);
+
+\path[fill=fillColor] (211.01,407.44) --
+	(213.65,402.86) --
+	(208.37,402.86) --
+	cycle;
+
+\path[fill=fillColor] (123.93,347.25) --
+	(126.57,342.67) --
+	(121.28,342.67) --
+	cycle;
+
+\path[fill=fillColor] (163.34,352.88) --
+	(165.98,348.31) --
+	(160.69,348.31) --
+	cycle;
+
+\path[fill=fillColor] (143.67,318.14) --
+	(146.31,313.56) --
+	(141.03,313.56) --
+	cycle;
+
+\path[fill=fillColor] (186.76,462.83) --
+	(189.40,458.25) --
+	(184.12,458.25) --
+	cycle;
+
+\path[fill=fillColor] ( 88.87,293.44) --
+	( 91.52,288.86) --
+	( 86.23,288.86) --
+	cycle;
+
+\path[fill=fillColor] (221.40, 80.24) circle (  1.96);
+
+\path[fill=fillColor] (116.23,447.02) --
+	(118.87,442.44) --
+	(113.58,442.44) --
+	cycle;
+
+\path[fill=fillColor] (308.95,198.50) circle (  1.96);
+
+\path[fill=fillColor] (401.46,299.57) circle (  1.96);
+
+\path[fill=fillColor] (187.63,437.08) --
+	(190.27,432.50) --
+	(184.98,432.50) --
+	cycle;
+
+\path[fill=fillColor] ( 65.18,443.77) --
+	( 67.83,439.19) --
+	( 62.54,439.19) --
+	cycle;
+
+\path[fill=fillColor] (350.78,135.13) circle (  1.96);
+
+\path[fill=fillColor] (121.62,249.52) --
+	(124.27,244.94) --
+	(118.98,244.94) --
+	cycle;
+
+\path[fill=fillColor] (100.72,376.50) --
+	(103.36,371.92) --
+	( 98.08,371.92) --
+	cycle;
+
+\path[fill=fillColor] (425.09,143.69) circle (  1.96);
+
+\path[fill=fillColor] (340.72,108.61) circle (  1.96);
+
+\path[fill=fillColor] (360.25,249.44) circle (  1.96);
+
+\path[fill=fillColor] (411.62,231.78) circle (  1.96);
+
+\path[fill=fillColor] (247.77,413.89) --
+	(250.41,409.32) --
+	(245.12,409.32) --
+	cycle;
+
+\path[fill=fillColor] (325.99,110.27) circle (  1.96);
+
+\path[fill=fillColor] ( 65.39,355.07) --
+	( 68.03,350.49) --
+	( 62.74,350.49) --
+	cycle;
+
+\path[fill=fillColor] (333.99,257.94) circle (  1.96);
+
+\path[fill=fillColor] (224.02,383.52) --
+	(226.66,378.95) --
+	(221.37,378.95) --
+	cycle;
+
+\path[fill=fillColor] ( 75.64,393.12) --
+	( 78.29,388.54) --
+	( 73.00,388.54) --
+	cycle;
+
+\path[fill=fillColor] (212.07,104.21) circle (  1.96);
+
+\path[fill=fillColor] (141.71,457.23) --
+	(144.35,452.65) --
+	(139.07,452.65) --
+	cycle;
+
+\path[fill=fillColor] (237.19,393.56) --
+	(239.84,388.98) --
+	(234.55,388.98) --
+	cycle;
+
+\path[fill=fillColor] (220.89,425.97) --
+	(223.53,421.39) --
+	(218.25,421.39) --
+	cycle;
+
+\path[fill=fillColor] (301.00,198.82) circle (  1.96);
+
+\path[fill=fillColor] (229.55,391.30) --
+	(232.19,386.72) --
+	(226.90,386.72) --
+	cycle;
+
+\path[fill=fillColor] (161.32,383.92) --
+	(163.97,379.34) --
+	(158.68,379.34) --
+	cycle;
+
+\path[fill=fillColor] (253.96,481.86) --
+	(256.60,477.28) --
+	(251.32,477.28) --
+	cycle;
+
+\path[fill=fillColor] ( 98.88,235.50) --
+	(101.52,230.92) --
+	( 96.23,230.92) --
+	cycle;
+
+\path[fill=fillColor] (176.83,472.10) --
+	(179.47,467.52) --
+	(174.19,467.52) --
+	cycle;
+
+\path[fill=fillColor] (222.43,105.58) circle (  1.96);
+
+\path[fill=fillColor] ( 70.59,457.04) --
+	( 73.23,452.46) --
+	( 67.94,452.46) --
+	cycle;
+
+\path[fill=fillColor] (381.08,245.69) circle (  1.96);
+
+\path[fill=fillColor] (270.49, 97.51) circle (  1.96);
+
+\path[fill=fillColor] (399.15,206.21) circle (  1.96);
+
+\path[fill=fillColor] (159.24,451.52) --
+	(161.88,446.95) --
+	(156.60,446.95) --
+	cycle;
+
+\path[fill=fillColor] (405.77,202.95) circle (  1.96);
+
+\path[fill=fillColor] (135.71,417.62) --
+	(138.36,413.05) --
+	(133.07,413.05) --
+	cycle;
+
+\path[fill=fillColor] (120.60,355.21) --
+	(123.24,350.63) --
+	(117.95,350.63) --
+	cycle;
+
+\path[fill=fillColor] (259.70,463.57) --
+	(262.34,458.99) --
+	(257.06,458.99) --
+	cycle;
+
+\path[fill=fillColor] (178.82,388.98) --
+	(181.46,384.40) --
+	(176.17,384.40) --
+	cycle;
+
+\path[fill=fillColor] (171.08,309.75) --
+	(173.73,305.18) --
+	(168.44,305.18) --
+	cycle;
+
+\path[fill=fillColor] (201.96,353.93) --
+	(204.60,349.35) --
+	(199.32,349.35) --
+	cycle;
+
+\path[fill=fillColor] ( 77.80,371.48) --
+	( 80.44,366.90) --
+	( 75.16,366.90) --
+	cycle;
+
+\path[fill=fillColor] (402.35,298.50) circle (  1.96);
+
+\path[fill=fillColor] (380.73,215.79) circle (  1.96);
+
+\path[fill=fillColor] (421.42,225.73) circle (  1.96);
+
+\path[fill=fillColor] (299.83, 77.30) circle (  1.96);
+
+\path[fill=fillColor] (162.04,321.11) --
+	(164.68,316.53) --
+	(159.39,316.53) --
+	cycle;
+
+\path[fill=fillColor] ( 75.64,288.92) --
+	( 78.28,284.35) --
+	( 73.00,284.35) --
+	cycle;
+
+\path[fill=fillColor] ( 69.04,265.04) --
+	( 71.68,260.46) --
+	( 66.39,260.46) --
+	cycle;
+
+\path[fill=fillColor] (225.57, 65.67) circle (  1.96);
+
+\path[fill=fillColor] (365.55,249.96) circle (  1.96);
+
+\path[fill=fillColor] (184.09,438.46) --
+	(186.73,433.88) --
+	(181.45,433.88) --
+	cycle;
+
+\path[fill=fillColor] (207.74,336.86) --
+	(210.39,332.29) --
+	(205.10,332.29) --
+	cycle;
+
+\path[fill=fillColor] (372.81,298.64) circle (  1.96);
+
+\path[fill=fillColor] (127.53,306.57) --
+	(130.17,301.99) --
+	(124.89,301.99) --
+	cycle;
+
+\path[fill=fillColor] (113.84,479.15) --
+	(116.49,474.57) --
+	(111.20,474.57) --
+	cycle;
+
+\path[fill=fillColor] (405.88,271.04) circle (  1.96);
+
+\path[fill=fillColor] (190.62,323.14) --
+	(193.26,318.56) --
+	(187.97,318.56) --
+	cycle;
+
+\path[fill=fillColor] (363.39,154.30) circle (  1.96);
+
+\path[fill=fillColor] (373.89,124.20) circle (  1.96);
+
+\path[fill=fillColor] ( 84.99,421.30) --
+	( 87.63,416.72) --
+	( 82.34,416.72) --
+	cycle;
+
+\path[fill=fillColor] (221.00,392.82) --
+	(223.65,388.24) --
+	(218.36,388.24) --
+	cycle;
+
+\path[fill=fillColor] (307.16,459.06) --
+	(309.80,454.48) --
+	(304.52,454.48) --
+	cycle;
+
+\path[fill=fillColor] (421.42,150.90) circle (  1.96);
+
+\path[fill=fillColor] (294.19,457.89) --
+	(296.83,453.31) --
+	(291.55,453.31) --
+	cycle;
+
+\path[fill=fillColor] (302.53,193.41) circle (  1.96);
+
+\path[fill=fillColor] (372.11,158.61) circle (  1.96);
+
+\path[fill=fillColor] (163.44,396.08) --
+	(166.08,391.51) --
+	(160.80,391.51) --
+	cycle;
+
+\path[fill=fillColor] (317.41,181.75) circle (  1.96);
+
+\path[fill=fillColor] (374.01, 53.79) circle (  1.96);
+
+\path[fill=fillColor] (403.96,196.42) circle (  1.96);
+
+\path[fill=fillColor] (298.38,478.81) --
+	(301.02,474.24) --
+	(295.73,474.24) --
+	cycle;
+
+\path[fill=fillColor] (153.21,366.78) --
+	(155.85,362.20) --
+	(150.57,362.20) --
+	cycle;
+
+\path[fill=fillColor] ( 88.24,296.22) --
+	( 90.89,291.65) --
+	( 85.60,291.65) --
+	cycle;
+
+\path[fill=fillColor] (328.16,222.50) circle (  1.96);
+
+\path[fill=fillColor] (135.82,473.65) --
+	(138.47,469.07) --
+	(133.18,469.07) --
+	cycle;
+
+\path[fill=fillColor] (325.68,108.99) circle (  1.96);
+
+\path[fill=fillColor] (431.89, 57.91) circle (  1.96);
+
+\path[fill=fillColor] (244.79, 55.89) circle (  1.96);
+
+\path[fill=fillColor] (360.36,203.28) circle (  1.96);
+
+\path[fill=fillColor] (299.01,199.24) circle (  1.96);
+
+\path[fill=fillColor] (335.63,174.15) circle (  1.96);
+
+\path[fill=fillColor] (296.30,436.51) --
+	(298.94,431.93) --
+	(293.66,431.93) --
+	cycle;
+
+\path[fill=fillColor] (218.79,108.86) circle (  1.96);
+
+\path[fill=fillColor] (211.09,112.23) circle (  1.96);
+
+\path[fill=fillColor] (120.31,417.39) --
+	(122.95,412.81) --
+	(117.67,412.81) --
+	cycle;
+
+\path[fill=fillColor] (131.54,440.72) --
+	(134.19,436.14) --
+	(128.90,436.14) --
+	cycle;
+
+\path[fill=fillColor] (388.98,151.75) circle (  1.96);
+
+\path[fill=fillColor] (393.66,149.73) circle (  1.96);
+
+\path[fill=fillColor] (186.78,338.14) --
+	(189.42,333.56) --
+	(184.14,333.56) --
+	cycle;
+
+\path[fill=fillColor] (418.89,253.47) circle (  1.96);
+
+\path[fill=fillColor] (150.76,271.39) --
+	(153.40,266.82) --
+	(148.12,266.82) --
+	cycle;
+
+\path[fill=fillColor] ( 74.70,240.78) --
+	( 77.34,236.20) --
+	( 72.06,236.20) --
+	cycle;
+
+\path[fill=fillColor] (271.14, 83.57) circle (  1.96);
+
+\path[fill=fillColor] (367.56,229.97) circle (  1.96);
+
+\path[fill=fillColor] (191.78,471.85) --
+	(194.42,467.27) --
+	(189.13,467.27) --
+	cycle;
+
+\path[fill=fillColor] (329.83,174.57) circle (  1.96);
+
+\path[fill=fillColor] (410.77,140.88) circle (  1.96);
+
+\path[fill=fillColor] (179.81,337.61) --
+	(182.45,333.03) --
+	(177.17,333.03) --
+	cycle;
+
+\path[fill=fillColor] ( 81.73,257.77) --
+	( 84.37,253.20) --
+	( 79.09,253.20) --
+	cycle;
+
+\path[fill=fillColor] (399.01,239.98) circle (  1.96);
+
+\path[fill=fillColor] (398.17, 95.70) circle (  1.96);
+
+\path[fill=fillColor] (296.06,168.72) circle (  1.96);
+
+\path[fill=fillColor] (151.20,352.29) --
+	(153.84,347.71) --
+	(148.56,347.71) --
+	cycle;
+
+\path[fill=fillColor] (410.60,200.59) circle (  1.96);
+
+\path[fill=fillColor] (240.01,451.16) --
+	(242.66,446.59) --
+	(237.37,446.59) --
+	cycle;
+
+\path[fill=fillColor] (290.38, 59.51) circle (  1.96);
+
+\path[fill=fillColor] ( 58.50,478.17) --
+	( 61.14,473.59) --
+	( 55.86,473.59) --
+	cycle;
+
+\path[fill=fillColor] (417.87,264.45) circle (  1.96);
+
+\path[fill=fillColor] (316.09,124.18) circle (  1.96);
+
+\path[fill=fillColor] (425.03, 81.27) circle (  1.96);
+
+\path[fill=fillColor] (134.80,313.70) --
+	(137.44,309.12) --
+	(132.16,309.12) --
+	cycle;
+
+\path[fill=fillColor] ( 63.16,183.81) --
+	( 65.80,179.23) --
+	( 60.51,179.23) --
+	cycle;
+
+\path[fill=fillColor] (431.90,147.09) circle (  1.96);
+
+\path[fill=fillColor] (315.41,459.07) --
+	(318.05,454.49) --
+	(312.77,454.49) --
+	cycle;
+
+\path[fill=fillColor] (397.54,122.12) circle (  1.96);
+
+\path[fill=fillColor] (427.43,224.41) circle (  1.96);
+
+\path[fill=fillColor] (259.02,463.27) --
+	(261.67,458.69) --
+	(256.38,458.69) --
+	cycle;
+
+\path[fill=fillColor] (347.27,234.13) circle (  1.96);
+
+\path[fill=fillColor] (268.40, 71.25) circle (  1.96);
+
+\path[fill=fillColor] (342.09,154.00) circle (  1.96);
+
+\path[fill=fillColor] (423.96,226.02) circle (  1.96);
+
+\path[fill=fillColor] (406.68,190.61) circle (  1.96);
+
+\path[fill=fillColor] (171.42,404.51) --
+	(174.06,399.93) --
+	(168.78,399.93) --
+	cycle;
+
+\path[fill=fillColor] (111.81,388.03) --
+	(114.45,383.46) --
+	(109.17,383.46) --
+	cycle;
+
+\path[fill=fillColor] ( 66.70,191.23) --
+	( 69.35,186.65) --
+	( 64.06,186.65) --
+	cycle;
+
+\path[fill=fillColor] (158.94,384.09) --
+	(161.59,379.52) --
+	(156.30,379.52) --
+	cycle;
+
+\path[fill=fillColor] (135.63,337.21) --
+	(138.27,332.63) --
+	(132.98,332.63) --
+	cycle;
+
+\path[fill=fillColor] (139.21,344.23) --
+	(141.86,339.66) --
+	(136.57,339.66) --
+	cycle;
+
+\path[fill=fillColor] (414.30,206.26) circle (  1.96);
+
+\path[fill=fillColor] (403.51,298.54) circle (  1.96);
+
+\path[fill=fillColor] (393.40,187.92) circle (  1.96);
+
+\path[fill=fillColor] (422.44,112.51) circle (  1.96);
+
+\path[fill=fillColor] (405.27,246.65) circle (  1.96);
+
+\path[fill=fillColor] (411.86, 66.70) circle (  1.96);
+
+\path[fill=fillColor] (386.75,261.30) circle (  1.96);
+
+\path[fill=fillColor] (216.54,415.16) --
+	(219.18,410.58) --
+	(213.90,410.58) --
+	cycle;
+
+\path[fill=fillColor] (297.07,126.79) circle (  1.96);
+
+\path[fill=fillColor] ( 80.71,460.03) --
+	( 83.35,455.45) --
+	( 78.07,455.45) --
+	cycle;
+
+\path[fill=fillColor] ( 96.98,463.63) --
+	( 99.62,459.06) --
+	( 94.33,459.06) --
+	cycle;
+
+\path[fill=fillColor] (401.81, 73.86) circle (  1.96);
+
+\path[fill=fillColor] (144.56,418.66) --
+	(147.21,414.08) --
+	(141.92,414.08) --
+	cycle;
+
+\path[fill=fillColor] (159.33,481.37) --
+	(161.98,476.79) --
+	(156.69,476.79) --
+	cycle;
+
+\path[fill=fillColor] (282.95,466.00) --
+	(285.59,461.43) --
+	(280.31,461.43) --
+	cycle;
+
+\path[fill=fillColor] (374.82,183.44) circle (  1.96);
+
+\path[fill=fillColor] (383.60, 57.81) circle (  1.96);
+
+\path[fill=fillColor] (217.97, 56.91) circle (  1.96);
+
+\path[fill=fillColor] (307.14,176.34) circle (  1.96);
+
+\path[fill=fillColor] (321.20,154.79) circle (  1.96);
+
+\path[fill=fillColor] (406.84,202.36) circle (  1.96);
+
+\path[fill=fillColor] ( 69.24,277.32) --
+	( 71.88,272.74) --
+	( 66.60,272.74) --
+	cycle;
+
+\path[fill=fillColor] (352.32, 63.32) circle (  1.96);
+
+\path[fill=fillColor] (114.58,480.40) --
+	(117.22,475.82) --
+	(111.94,475.82) --
+	cycle;
+
+\path[fill=fillColor] (296.20,206.78) circle (  1.96);
+
+\path[fill=fillColor] (245.15, 52.23) circle (  1.96);
+
+\path[fill=fillColor] (259.90,445.46) --
+	(262.55,440.89) --
+	(257.26,440.89) --
+	cycle;
+
+\path[fill=fillColor] (204.98,106.24) circle (  1.96);
+
+\path[fill=fillColor] (338.09,251.63) circle (  1.96);
+
+\path[fill=fillColor] (146.27,304.97) --
+	(148.91,300.39) --
+	(143.63,300.39) --
+	cycle;
+
+\path[fill=fillColor] (426.50, 84.21) circle (  1.96);
+
+\path[fill=fillColor] (100.87,255.42) --
+	(103.51,250.84) --
+	( 98.23,250.84) --
+	cycle;
+
+\path[fill=fillColor] (205.94,338.31) --
+	(208.59,333.74) --
+	(203.30,333.74) --
+	cycle;
+
+\path[fill=fillColor] (400.72,307.12) circle (  1.96);
+
+\path[fill=fillColor] (401.96,294.22) circle (  1.96);
+
+\path[fill=fillColor] (264.64, 92.11) circle (  1.96);
+
+\path[fill=fillColor] (412.78, 90.40) circle (  1.96);
+
+\path[fill=fillColor] (118.26,389.09) --
+	(120.90,384.51) --
+	(115.61,384.51) --
+	cycle;
+
+\path[fill=fillColor] (298.95,159.98) circle (  1.96);
+
+\path[fill=fillColor] (146.74,452.36) --
+	(149.39,447.79) --
+	(144.10,447.79) --
+	cycle;
+
+\path[fill=fillColor] (213.73,376.11) --
+	(216.37,371.53) --
+	(211.08,371.53) --
+	cycle;
+
+\path[fill=fillColor] (181.33,439.15) --
+	(183.97,434.57) --
+	(178.68,434.57) --
+	cycle;
+
+\path[fill=fillColor] (392.54, 99.02) circle (  1.96);
+
+\path[fill=fillColor] (129.84,366.75) --
+	(132.48,362.17) --
+	(127.20,362.17) --
+	cycle;
+
+\path[fill=fillColor] ( 90.08,256.46) --
+	( 92.73,251.89) --
+	( 87.44,251.89) --
+	cycle;
+
+\path[fill=fillColor] (147.14,422.31) --
+	(149.78,417.73) --
+	(144.50,417.73) --
+	cycle;
+
+\path[fill=fillColor] (419.37,120.03) circle (  1.96);
+
+\path[fill=fillColor] ( 87.42,346.54) --
+	( 90.06,341.97) --
+	( 84.77,341.97) --
+	cycle;
+
+\path[fill=fillColor] (306.92,219.51) circle (  1.96);
+
+\path[fill=fillColor] (279.39,431.77) --
+	(282.03,427.20) --
+	(276.74,427.20) --
+	cycle;
+
+\path[fill=fillColor] (138.11,481.51) --
+	(140.75,476.94) --
+	(135.46,476.94) --
+	cycle;
+
+\path[fill=fillColor] (303.52,171.55) circle (  1.96);
+
+\path[fill=fillColor] (209.25,423.84) --
+	(211.89,419.26) --
+	(206.61,419.26) --
+	cycle;
+
+\path[fill=fillColor] (419.12,265.32) circle (  1.96);
+
+\path[fill=fillColor] (331.22,184.43) circle (  1.96);
+
+\path[fill=fillColor] (122.49,250.44) --
+	(125.14,245.86) --
+	(119.85,245.86) --
+	cycle;
+
+\path[fill=fillColor] (209.68,370.33) --
+	(212.32,365.75) --
+	(207.03,365.75) --
+	cycle;
+
+\path[fill=fillColor] (415.13,228.45) circle (  1.96);
+
+\path[fill=fillColor] (423.29,268.26) circle (  1.96);
+
+\path[fill=fillColor] (130.54,451.77) --
+	(133.19,447.19) --
+	(127.90,447.19) --
+	cycle;
+
+\path[fill=fillColor] (135.51,399.93) --
+	(138.15,395.35) --
+	(132.87,395.35) --
+	cycle;
+
+\path[fill=fillColor] (129.63,458.63) --
+	(132.27,454.05) --
+	(126.99,454.05) --
+	cycle;
+
+\path[fill=fillColor] (215.17, 61.40) circle (  1.96);
+
+\path[fill=fillColor] (357.67,202.29) circle (  1.96);
+
+\path[fill=fillColor] (252.27,153.66) circle (  1.96);
+
+\path[fill=fillColor] (118.30,454.76) --
+	(120.94,450.18) --
+	(115.66,450.18) --
+	cycle;
+
+\path[fill=fillColor] (428.62, 71.23) circle (  1.96);
+
+\path[fill=fillColor] (110.19,330.38) --
+	(112.84,325.81) --
+	(107.55,325.81) --
+	cycle;
+
+\path[fill=fillColor] (142.01,325.19) --
+	(144.65,320.61) --
+	(139.37,320.61) --
+	cycle;
+
+\path[fill=fillColor] (255.74,445.84) --
+	(258.39,441.26) --
+	(253.10,441.26) --
+	cycle;
+
+\path[fill=fillColor] ( 62.93,230.61) --
+	( 65.57,226.03) --
+	( 60.29,226.03) --
+	cycle;
+
+\path[fill=fillColor] (317.92,155.60) circle (  1.96);
+
+\path[fill=fillColor] ( 92.59,342.05) --
+	( 95.24,337.48) --
+	( 89.95,337.48) --
+	cycle;
+
+\path[fill=fillColor] (326.00,148.73) circle (  1.96);
+
+\path[fill=fillColor] ( 76.92,241.35) --
+	( 79.56,236.77) --
+	( 74.28,236.77) --
+	cycle;
+
+\path[fill=fillColor] (142.37,357.76) --
+	(145.01,353.18) --
+	(139.73,353.18) --
+	cycle;
+
+\path[fill=fillColor] (110.06,250.57) --
+	(112.70,245.99) --
+	(107.42,245.99) --
+	cycle;
+
+\path[fill=fillColor] (108.03,295.09) --
+	(110.68,290.51) --
+	(105.39,290.51) --
+	cycle;
+
+\path[fill=fillColor] (420.98,288.89) circle (  1.96);
+
+\path[fill=fillColor] ( 97.83,391.63) --
+	(100.47,387.05) --
+	( 95.18,387.05) --
+	cycle;
+
+\path[fill=fillColor] (166.09,404.72) --
+	(168.73,400.14) --
+	(163.44,400.14) --
+	cycle;
+
+\path[fill=fillColor] (245.24,456.16) --
+	(247.88,451.59) --
+	(242.60,451.59) --
+	cycle;
+
+\path[fill=fillColor] (176.74,350.18) --
+	(179.39,345.60) --
+	(174.10,345.60) --
+	cycle;
+
+\path[fill=fillColor] (337.83, 67.69) circle (  1.96);
+
+\path[fill=fillColor] (324.68, 85.85) circle (  1.96);
+
+\path[fill=fillColor] (211.16, 86.21) circle (  1.96);
+
+\path[fill=fillColor] (333.69,252.01) circle (  1.96);
+
+\path[fill=fillColor] (161.71,345.06) --
+	(164.35,340.49) --
+	(159.07,340.49) --
+	cycle;
+
+\path[fill=fillColor] (373.62, 98.68) circle (  1.96);
+
+\path[fill=fillColor] (125.22,464.97) --
+	(127.87,460.40) --
+	(122.58,460.40) --
+	cycle;
+
+\path[fill=fillColor] (240.27, 97.12) circle (  1.96);
+
+\path[fill=fillColor] (384.18,155.75) circle (  1.96);
+
+\path[fill=fillColor] (389.70,250.61) circle (  1.96);
+
+\path[fill=fillColor] (284.63,155.83) circle (  1.96);
+
+\path[fill=fillColor] (163.37,348.40) --
+	(166.02,343.82) --
+	(160.73,343.82) --
+	cycle;
+
+\path[fill=fillColor] (219.93,404.11) --
+	(222.58,399.54) --
+	(217.29,399.54) --
+	cycle;
+
+\path[fill=fillColor] (381.74, 53.16) circle (  1.96);
+
+\path[fill=fillColor] (201.20,400.16) --
+	(203.84,395.58) --
+	(198.56,395.58) --
+	cycle;
+
+\path[fill=fillColor] (309.61,137.17) circle (  1.96);
+
+\path[fill=fillColor] (421.77,317.81) circle (  1.96);
+
+\path[fill=fillColor] (100.42,233.73) --
+	(103.06,229.15) --
+	( 97.77,229.15) --
+	cycle;
+
+\path[fill=fillColor] (263.17,465.66) --
+	(265.81,461.08) --
+	(260.53,461.08) --
+	cycle;
+
+\path[fill=fillColor] (312.91,118.87) circle (  1.96);
+
+\path[fill=fillColor] (364.98, 84.40) circle (  1.96);
+
+\path[fill=fillColor] ( 65.84,467.37) --
+	( 68.49,462.80) --
+	( 63.20,462.80) --
+	cycle;
+
+\path[fill=fillColor] (125.65,460.48) --
+	(128.29,455.90) --
+	(123.00,455.90) --
+	cycle;
+
+\path[fill=fillColor] (265.95,409.45) --
+	(268.59,404.87) --
+	(263.31,404.87) --
+	cycle;
+
+\path[fill=fillColor] (248.41,152.59) circle (  1.96);
+
+\path[fill=fillColor] ( 93.85,320.61) --
+	( 96.49,316.04) --
+	( 91.21,316.04) --
+	cycle;
+
+\path[fill=fillColor] ( 88.95,408.46) --
+	( 91.59,403.88) --
+	( 86.31,403.88) --
+	cycle;
+
+\path[fill=fillColor] (164.06,354.94) --
+	(166.70,350.36) --
+	(161.41,350.36) --
+	cycle;
+
+\path[fill=fillColor] (417.40, 74.82) circle (  1.96);
+
+\path[fill=fillColor] (349.17,166.69) circle (  1.96);
+
+\path[fill=fillColor] (185.52,363.58) --
+	(188.16,359.00) --
+	(182.87,359.00) --
+	cycle;
+
+\path[fill=fillColor] (154.07,323.22) --
+	(156.71,318.64) --
+	(151.42,318.64) --
+	cycle;
+
+\path[fill=fillColor] (139.11,321.06) --
+	(141.76,316.49) --
+	(136.47,316.49) --
+	cycle;
+
+\path[fill=fillColor] (280.85,420.25) --
+	(283.50,415.68) --
+	(278.21,415.68) --
+	cycle;
+
+\path[fill=fillColor] (122.17,307.08) --
+	(124.81,302.50) --
+	(119.52,302.50) --
+	cycle;
+
+\path[fill=fillColor] (258.88,169.61) circle (  1.96);
+
+\path[fill=fillColor] (369.15, 67.25) circle (  1.96);
+
+\path[fill=fillColor] (177.01,366.37) --
+	(179.66,361.80) --
+	(174.37,361.80) --
+	cycle;
+
+\path[fill=fillColor] ( 56.52,424.00) --
+	( 59.16,419.42) --
+	( 53.88,419.42) --
+	cycle;
+
+\path[fill=fillColor] ( 64.62,180.11) --
+	( 67.26,175.53) --
+	( 61.98,175.53) --
+	cycle;
+
+\path[fill=fillColor] (409.29,105.19) circle (  1.96);
+
+\path[fill=fillColor] (352.74,116.87) circle (  1.96);
+
+\path[fill=fillColor] (101.09,472.36) --
+	(103.73,467.78) --
+	( 98.45,467.78) --
+	cycle;
+
+\path[fill=fillColor] ( 90.89,329.01) --
+	( 93.54,324.43) --
+	( 88.25,324.43) --
+	cycle;
+
+\path[fill=fillColor] (353.50,249.96) circle (  1.96);
+
+\path[fill=fillColor] (100.15,290.55) --
+	(102.79,285.97) --
+	( 97.51,285.97) --
+	cycle;
+
+\path[fill=fillColor] (430.48,287.79) circle (  1.96);
+
+\path[fill=fillColor] (262.39,173.19) circle (  1.96);
+
+\path[fill=fillColor] (310.24, 59.18) circle (  1.96);
+
+\path[fill=fillColor] (217.64,379.33) --
+	(220.28,374.75) --
+	(215.00,374.75) --
+	cycle;
+
+\path[fill=fillColor] (408.16,241.08) circle (  1.96);
+
+\path[fill=fillColor] (225.90,110.85) circle (  1.96);
+
+\path[fill=fillColor] (181.45,454.99) --
+	(184.09,450.41) --
+	(178.81,450.41) --
+	cycle;
+
+\path[fill=fillColor] ( 89.86,273.51) --
+	( 92.51,268.93) --
+	( 87.22,268.93) --
+	cycle;
+
+\path[fill=fillColor] (181.39, 64.76) circle (  1.96);
+
+\path[fill=fillColor] (392.23,216.30) circle (  1.96);
+
+\path[fill=fillColor] (128.93,470.63) --
+	(131.58,466.05) --
+	(126.29,466.05) --
+	cycle;
+
+\path[fill=fillColor] (208.82,474.03) --
+	(211.47,469.46) --
+	(206.18,469.46) --
+	cycle;
+
+\path[fill=fillColor] (231.93,394.41) --
+	(234.57,389.83) --
+	(229.28,389.83) --
+	cycle;
+
+\path[fill=fillColor] (265.22,109.05) circle (  1.96);
+
+\path[fill=fillColor] (398.23,230.05) circle (  1.96);
+
+\path[fill=fillColor] (222.79, 68.61) circle (  1.96);
+
+\path[fill=fillColor] (272.84,454.51) --
+	(275.49,449.93) --
+	(270.20,449.93) --
+	cycle;
+
+\path[fill=fillColor] (232.16, 77.98) circle (  1.96);
+
+\path[fill=fillColor] (231.16,403.02) --
+	(233.80,398.44) --
+	(228.52,398.44) --
+	cycle;
+
+\path[fill=fillColor] (290.18,467.12) --
+	(292.83,462.55) --
+	(287.54,462.55) --
+	cycle;
+
+\path[fill=fillColor] (217.56, 92.52) circle (  1.96);
+
+\path[fill=fillColor] (386.77,303.02) circle (  1.96);
+
+\path[fill=fillColor] ( 79.15,287.45) --
+	( 81.79,282.87) --
+	( 76.51,282.87) --
+	cycle;
+
+\path[fill=fillColor] (127.04,254.05) --
+	(129.68,249.47) --
+	(124.40,249.47) --
+	cycle;
+
+\path[fill=fillColor] (229.87,403.66) --
+	(232.52,399.09) --
+	(227.23,399.09) --
+	cycle;
+
+\path[fill=fillColor] (352.19,172.04) circle (  1.96);
+
+\path[fill=fillColor] (151.63,462.52) --
+	(154.27,457.94) --
+	(148.98,457.94) --
+	cycle;
+
+\path[fill=fillColor] (163.76,350.28) --
+	(166.40,345.71) --
+	(161.12,345.71) --
+	cycle;
+
+\path[fill=fillColor] ( 56.73,469.79) --
+	( 59.37,465.22) --
+	( 54.09,465.22) --
+	cycle;
+
+\path[fill=fillColor] ( 83.27,258.60) --
+	( 85.91,254.02) --
+	( 80.63,254.02) --
+	cycle;
+
+\path[fill=fillColor] (133.85,318.75) --
+	(136.49,314.18) --
+	(131.20,314.18) --
+	cycle;
+
+\path[fill=fillColor] (175.49,473.64) --
+	(178.13,469.06) --
+	(172.85,469.06) --
+	cycle;
+
+\path[fill=fillColor] (186.62,436.99) --
+	(189.26,432.41) --
+	(183.97,432.41) --
+	cycle;
+
+\path[fill=fillColor] ( 90.29,228.85) --
+	( 92.93,224.27) --
+	( 87.65,224.27) --
+	cycle;
+
+\path[fill=fillColor] (431.25,231.69) circle (  1.96);
+
+\path[fill=fillColor] (421.67, 61.28) circle (  1.96);
+
+\path[fill=fillColor] (204.65, 95.51) circle (  1.96);
+
+\path[fill=fillColor] (411.71,193.72) circle (  1.96);
+
+\path[fill=fillColor] (411.27,193.94) circle (  1.96);
+
+\path[fill=fillColor] (195.26,447.46) --
+	(197.90,442.88) --
+	(192.61,442.88) --
+	cycle;
+
+\path[fill=fillColor] (291.20,128.51) circle (  1.96);
+
+\path[fill=fillColor] (299.28,467.01) --
+	(301.93,462.43) --
+	(296.64,462.43) --
+	cycle;
+
+\path[fill=fillColor] (146.49,399.59) --
+	(149.13,395.01) --
+	(143.85,395.01) --
+	cycle;
+
+\path[fill=fillColor] (118.90,317.42) --
+	(121.55,312.84) --
+	(116.26,312.84) --
+	cycle;
+
+\path[fill=fillColor] ( 74.40,313.81) --
+	( 77.04,309.24) --
+	( 71.75,309.24) --
+	cycle;
+
+\path[fill=fillColor] (113.12,363.60) --
+	(115.77,359.03) --
+	(110.48,359.03) --
+	cycle;
+
+\path[fill=fillColor] (191.29,328.87) --
+	(193.94,324.29) --
+	(188.65,324.29) --
+	cycle;
+
+\path[fill=fillColor] (426.72,102.52) circle (  1.96);
+
+\path[fill=fillColor] (408.80,233.40) circle (  1.96);
+
+\path[fill=fillColor] (150.68,296.44) --
+	(153.32,291.86) --
+	(148.04,291.86) --
+	cycle;
+
+\path[fill=fillColor] ( 77.82,265.43) --
+	( 80.46,260.86) --
+	( 75.18,260.86) --
+	cycle;
+
+\path[fill=fillColor] (330.35,249.27) circle (  1.96);
+
+\path[fill=fillColor] (389.85,206.51) circle (  1.96);
+
+\path[fill=fillColor] (265.12,141.49) circle (  1.96);
+
+\path[fill=fillColor] (137.77,283.40) --
+	(140.41,278.82) --
+	(135.13,278.82) --
+	cycle;
+
+\path[fill=fillColor] (208.47,434.73) --
+	(211.11,430.15) --
+	(205.82,430.15) --
+	cycle;
+
+\path[fill=fillColor] (227.30,480.56) --
+	(229.94,475.98) --
+	(224.66,475.98) --
+	cycle;
+
+\path[fill=fillColor] (324.90, 87.93) circle (  1.96);
+
+\path[fill=fillColor] (429.11,300.25) circle (  1.96);
+
+\path[fill=fillColor] (229.61,450.89) --
+	(232.26,446.31) --
+	(226.97,446.31) --
+	cycle;
+
+\path[fill=fillColor] ( 68.87,406.29) --
+	( 71.52,401.71) --
+	( 66.23,401.71) --
+	cycle;
+
+\path[fill=fillColor] (371.45,104.54) circle (  1.96);
+
+\path[fill=fillColor] (128.42,395.23) --
+	(131.06,390.65) --
+	(125.78,390.65) --
+	cycle;
+
+\path[fill=fillColor] (340.57,171.63) circle (  1.96);
+
+\path[fill=fillColor] (279.68, 79.17) circle (  1.96);
+
+\path[fill=fillColor] (109.56,390.94) --
+	(112.20,386.37) --
+	(106.92,386.37) --
+	cycle;
+
+\path[fill=fillColor] (418.09,180.56) circle (  1.96);
+
+\path[fill=fillColor] (175.08, 53.32) circle (  1.96);
+
+\path[fill=fillColor] ( 76.94,288.31) --
+	( 79.58,283.73) --
+	( 74.29,283.73) --
+	cycle;
+
+\path[fill=fillColor] ( 62.25,446.03) --
+	( 64.89,441.46) --
+	( 59.60,441.46) --
+	cycle;
+
+\path[fill=fillColor] (117.86,245.21) --
+	(120.50,240.63) --
+	(115.21,240.63) --
+	cycle;
+
+\path[fill=fillColor] ( 97.49,430.16) --
+	(100.14,425.58) --
+	( 94.85,425.58) --
+	cycle;
+
+\path[fill=fillColor] (199.19, 83.31) circle (  1.96);
+
+\path[fill=fillColor] (180.53,341.50) --
+	(183.18,336.92) --
+	(177.89,336.92) --
+	cycle;
+
+\path[fill=fillColor] (238.32,102.51) circle (  1.96);
+
+\path[fill=fillColor] (186.82,381.09) --
+	(189.46,376.51) --
+	(184.18,376.51) --
+	cycle;
+
+\path[fill=fillColor] (382.64, 80.18) circle (  1.96);
+
+\path[fill=fillColor] (408.47,196.16) circle (  1.96);
+
+\path[fill=fillColor] ( 83.22,436.83) --
+	( 85.86,432.25) --
+	( 80.58,432.25) --
+	cycle;
+
+\path[fill=fillColor] (279.50,183.86) circle (  1.96);
+
+\path[fill=fillColor] (219.28,385.85) --
+	(221.92,381.27) --
+	(216.64,381.27) --
+	cycle;
+
+\path[fill=fillColor] ( 74.26,215.47) --
+	( 76.91,210.90) --
+	( 71.62,210.90) --
+	cycle;
+
+\path[fill=fillColor] (115.37,408.83) --
+	(118.01,404.26) --
+	(112.72,404.26) --
+	cycle;
+
+\path[fill=fillColor] (319.87,118.15) circle (  1.96);
+
+\path[fill=fillColor] (402.45,285.85) circle (  1.96);
+
+\path[fill=fillColor] (201.68, 70.61) circle (  1.96);
+
+\path[fill=fillColor] (187.09, 61.81) circle (  1.96);
+
+\path[fill=fillColor] (359.83,230.35) circle (  1.96);
+
+\path[fill=fillColor] (125.81,243.02) --
+	(128.46,238.45) --
+	(123.17,238.45) --
+	cycle;
+
+\path[fill=fillColor] (359.57,122.84) circle (  1.96);
+
+\path[fill=fillColor] (415.63,157.46) circle (  1.96);
+
+\path[fill=fillColor] (380.54,231.94) circle (  1.96);
+
+\path[fill=fillColor] (335.78,193.47) circle (  1.96);
+
+\path[fill=fillColor] (343.64, 98.62) circle (  1.96);
+
+\path[fill=fillColor] (137.84,281.60) --
+	(140.48,277.02) --
+	(135.20,277.02) --
+	cycle;
+
+\path[fill=fillColor] (335.91,223.40) circle (  1.96);
+
+\path[fill=fillColor] (269.73,444.07) --
+	(272.38,439.49) --
+	(267.09,439.49) --
+	cycle;
+
+\path[fill=fillColor] (405.08,264.87) circle (  1.96);
+
+\path[fill=fillColor] (417.43,101.73) circle (  1.96);
+
+\path[fill=fillColor] (416.92, 73.64) circle (  1.96);
+
+\path[fill=fillColor] (312.32, 62.90) circle (  1.96);
+
+\path[fill=fillColor] (297.78,209.36) circle (  1.96);
+
+\path[fill=fillColor] (394.52, 77.91) circle (  1.96);
+
+\path[fill=fillColor] ( 63.12,296.82) --
+	( 65.77,292.25) --
+	( 60.48,292.25) --
+	cycle;
+
+\path[fill=fillColor] (301.65,168.05) circle (  1.96);
+
+\path[fill=fillColor] (426.26,358.14) circle (  1.96);
+
+\path[fill=fillColor] ( 70.67,454.34) --
+	( 73.32,449.76) --
+	( 68.03,449.76) --
+	cycle;
+
+\path[fill=fillColor] ( 67.10,229.39) --
+	( 69.74,224.81) --
+	( 64.45,224.81) --
+	cycle;
+
+\path[fill=fillColor] (202.62,465.63) --
+	(205.26,461.05) --
+	(199.98,461.05) --
+	cycle;
+
+\path[fill=fillColor] (387.09,220.13) circle (  1.96);
+
+\path[fill=fillColor] (341.62,119.83) circle (  1.96);
+
+\path[fill=fillColor] (430.87,310.31) circle (  1.96);
+
+\path[fill=fillColor] (399.25,251.52) circle (  1.96);
+
+\path[fill=fillColor] ( 95.31,309.47) --
+	( 97.96,304.89) --
+	( 92.67,304.89) --
+	cycle;
+
+\path[fill=fillColor] (199.50,391.08) --
+	(202.14,386.50) --
+	(196.86,386.50) --
+	cycle;
+
+\path[fill=fillColor] (160.33,310.81) --
+	(162.97,306.24) --
+	(157.68,306.24) --
+	cycle;
+
+\path[fill=fillColor] (352.25, 55.30) circle (  1.96);
+
+\path[fill=fillColor] (155.74,476.32) --
+	(158.38,471.74) --
+	(153.10,471.74) --
+	cycle;
+
+\path[fill=fillColor] ( 91.43,479.12) --
+	( 94.08,474.54) --
+	( 88.79,474.54) --
+	cycle;
+
+\path[fill=fillColor] (409.42,221.00) circle (  1.96);
+
+\path[fill=fillColor] (401.12,190.86) circle (  1.96);
+
+\path[fill=fillColor] (223.54,447.56) --
+	(226.18,442.98) --
+	(220.90,442.98) --
+	cycle;
+
+\path[fill=fillColor] (252.25, 72.44) circle (  1.96);
+
+\path[fill=fillColor] (263.40,461.84) --
+	(266.04,457.26) --
+	(260.76,457.26) --
+	cycle;
+
+\path[fill=fillColor] (172.48,442.33) --
+	(175.12,437.76) --
+	(169.84,437.76) --
+	cycle;
+
+\path[fill=fillColor] (309.92,452.42) --
+	(312.56,447.84) --
+	(307.27,447.84) --
+	cycle;
+
+\path[fill=fillColor] (389.70,183.06) circle (  1.96);
+
+\path[fill=fillColor] ( 96.29,479.49) --
+	( 98.94,474.92) --
+	( 93.65,474.92) --
+	cycle;
+
+\path[fill=fillColor] (414.15,281.86) circle (  1.96);
+
+\path[fill=fillColor] (325.62,119.00) circle (  1.96);
+
+\path[fill=fillColor] (104.97,469.06) --
+	(107.61,464.48) --
+	(102.33,464.48) --
+	cycle;
+
+\path[fill=fillColor] (266.68,411.13) --
+	(269.32,406.55) --
+	(264.04,406.55) --
+	cycle;
+
+\path[fill=fillColor] (289.57,102.07) circle (  1.96);
+
+\path[fill=fillColor] (396.99, 73.49) circle (  1.96);
+
+\path[fill=fillColor] (368.01, 79.66) circle (  1.96);
+
+\path[fill=fillColor] ( 60.88,285.09) --
+	( 63.52,280.51) --
+	( 58.23,280.51) --
+	cycle;
+
+\path[fill=fillColor] (302.40,107.80) circle (  1.96);
+
+\path[fill=fillColor] (340.72, 58.55) circle (  1.96);
+
+\path[fill=fillColor] (101.30,272.80) --
+	(103.94,268.22) --
+	( 98.66,268.22) --
+	cycle;
+
+\path[fill=fillColor] (274.06,419.07) --
+	(276.70,414.49) --
+	(271.41,414.49) --
+	cycle;
+
+\path[fill=fillColor] (327.53,238.98) circle (  1.96);
+
+\path[fill=fillColor] (110.68,475.31) --
+	(113.32,470.73) --
+	(108.04,470.73) --
+	cycle;
+
+\path[fill=fillColor] (377.81,233.93) circle (  1.96);
+
+\path[fill=fillColor] ( 96.33,258.36) --
+	( 98.97,253.78) --
+	( 93.69,253.78) --
+	cycle;
+
+\path[fill=fillColor] (167.70,456.13) --
+	(170.34,451.56) --
+	(165.05,451.56) --
+	cycle;
+
+\path[fill=fillColor] (116.93,422.65) --
+	(119.57,418.07) --
+	(114.29,418.07) --
+	cycle;
+
+\path[fill=fillColor] (413.00,212.94) circle (  1.96);
+
+\path[fill=fillColor] (375.45, 64.99) circle (  1.96);
+
+\path[fill=fillColor] (190.24, 78.38) circle (  1.96);
+
+\path[fill=fillColor] (211.40,449.30) --
+	(214.04,444.72) --
+	(208.76,444.72) --
+	cycle;
+
+\path[fill=fillColor] (301.74,191.33) circle (  1.96);
+
+\path[fill=fillColor] (315.40,142.40) circle (  1.96);
+
+\path[fill=fillColor] (180.84, 73.77) circle (  1.96);
+
+\path[fill=fillColor] (339.84,111.34) circle (  1.96);
+
+\path[fill=fillColor] (214.31,467.91) --
+	(216.95,463.34) --
+	(211.67,463.34) --
+	cycle;
+
+\path[fill=fillColor] (394.63,144.90) circle (  1.96);
+
+\path[fill=fillColor] ( 93.71,478.15) --
+	( 96.35,473.57) --
+	( 91.07,473.57) --
+	cycle;
+
+\path[fill=fillColor] (137.69,294.88) --
+	(140.33,290.31) --
+	(135.04,290.31) --
+	cycle;
+
+\path[fill=fillColor] (424.79,257.54) circle (  1.96);
+
+\path[fill=fillColor] (101.75,343.91) --
+	(104.39,339.34) --
+	( 99.11,339.34) --
+	cycle;
+
+\path[fill=fillColor] (193.89,441.17) --
+	(196.53,436.59) --
+	(191.25,436.59) --
+	cycle;
+
+\path[fill=fillColor] (129.08,412.17) --
+	(131.72,407.60) --
+	(126.43,407.60) --
+	cycle;
+
+\path[fill=fillColor] (306.77,474.82) --
+	(309.41,470.24) --
+	(304.12,470.24) --
+	cycle;
+
+\path[fill=fillColor] (198.47,100.73) circle (  1.96);
+
+\path[fill=fillColor] ( 96.52,366.58) --
+	( 99.16,362.00) --
+	( 93.88,362.00) --
+	cycle;
+
+\path[fill=fillColor] (403.14,215.18) circle (  1.96);
+
+\path[fill=fillColor] ( 64.13,225.25) --
+	( 66.77,220.67) --
+	( 61.49,220.67) --
+	cycle;
+
+\path[fill=fillColor] (372.69,240.14) circle (  1.96);
+
+\path[fill=fillColor] (243.43,476.97) --
+	(246.07,472.39) --
+	(240.79,472.39) --
+	cycle;
+
+\path[fill=fillColor] ( 96.98,228.22) --
+	( 99.62,223.64) --
+	( 94.33,223.64) --
+	cycle;
+
+\path[fill=fillColor] (226.15,463.55) --
+	(228.79,458.98) --
+	(223.51,458.98) --
+	cycle;
+
+\path[fill=fillColor] ( 81.56,358.38) --
+	( 84.20,353.81) --
+	( 78.92,353.81) --
+	cycle;
+
+\path[fill=fillColor] (124.02,293.45) --
+	(126.66,288.87) --
+	(121.38,288.87) --
+	cycle;
+
+\path[fill=fillColor] (347.41,214.01) circle (  1.96);
+
+\path[fill=fillColor] (263.46,114.86) circle (  1.96);
+
+\path[fill=fillColor] (281.64,167.78) circle (  1.96);
+
+\path[fill=fillColor] (114.65,364.76) --
+	(117.29,360.18) --
+	(112.00,360.18) --
+	cycle;
+
+\path[fill=fillColor] (122.71,255.46) --
+	(125.36,250.88) --
+	(120.07,250.88) --
+	cycle;
+
+\path[fill=fillColor] ( 66.44,210.44) --
+	( 69.08,205.86) --
+	( 63.80,205.86) --
+	cycle;
+
+\path[fill=fillColor] (247.61,112.69) circle (  1.96);
+
+\path[fill=fillColor] (389.53,190.59) circle (  1.96);
+
+\path[fill=fillColor] (212.87,423.39) --
+	(215.52,418.81) --
+	(210.23,418.81) --
+	cycle;
+
+\path[fill=fillColor] (213.56, 91.73) circle (  1.96);
+
+\path[fill=fillColor] (206.72,388.49) --
+	(209.36,383.91) --
+	(204.07,383.91) --
+	cycle;
+
+\path[fill=fillColor] (291.24,466.38) --
+	(293.88,461.80) --
+	(288.60,461.80) --
+	cycle;
+
+\path[fill=fillColor] (143.25,342.37) --
+	(145.89,337.80) --
+	(140.61,337.80) --
+	cycle;
+
+\path[fill=fillColor] (165.49,403.79) --
+	(168.14,399.21) --
+	(162.85,399.21) --
+	cycle;
+
+\path[fill=fillColor] (347.83,241.94) circle (  1.96);
+
+\path[fill=fillColor] (334.63,228.61) circle (  1.96);
+
+\path[fill=fillColor] ( 70.66,236.53) --
+	( 73.31,231.95) --
+	( 68.02,231.95) --
+	cycle;
+
+\path[fill=fillColor] (100.89,276.11) --
+	(103.53,271.53) --
+	( 98.25,271.53) --
+	cycle;
+
+\path[fill=fillColor] (101.92,227.85) --
+	(104.56,223.28) --
+	( 99.28,223.28) --
+	cycle;
+
+\path[fill=fillColor] (365.65,252.19) circle (  1.96);
+
+\path[fill=fillColor] (374.05, 83.44) circle (  1.96);
+
+\path[fill=fillColor] (369.40,216.99) circle (  1.96);
+
+\path[fill=fillColor] (284.23, 68.79) circle (  1.96);
+
+\path[fill=fillColor] (380.19,303.29) circle (  1.96);
+
+\path[fill=fillColor] (271.31,129.37) circle (  1.96);
+
+\path[fill=fillColor] (224.91,439.02) --
+	(227.55,434.44) --
+	(222.26,434.44) --
+	cycle;
+
+\path[fill=fillColor] ( 90.80,251.79) --
+	( 93.44,247.21) --
+	( 88.16,247.21) --
+	cycle;
+
+\path[fill=fillColor] (312.67,178.90) circle (  1.96);
+
+\path[fill=fillColor] (218.58, 75.51) circle (  1.96);
+
+\path[fill=fillColor] (201.38,365.76) --
+	(204.02,361.18) --
+	(198.74,361.18) --
+	cycle;
+
+\path[fill=fillColor] (108.90,428.66) --
+	(111.54,424.09) --
+	(106.26,424.09) --
+	cycle;
+
+\path[fill=fillColor] (164.02,334.15) --
+	(166.66,329.58) --
+	(161.38,329.58) --
+	cycle;
+
+\path[fill=fillColor] (326.66,215.47) circle (  1.96);
+
+\path[fill=fillColor] (248.31,382.68) --
+	(250.96,378.11) --
+	(245.67,378.11) --
+	cycle;
+
+\path[fill=fillColor] (357.61,267.55) circle (  1.96);
+
+\path[fill=fillColor] (410.95, 89.29) circle (  1.96);
+
+\path[fill=fillColor] (169.02,325.28) --
+	(171.66,320.71) --
+	(166.38,320.71) --
+	cycle;
+
+\path[fill=fillColor] (241.19, 64.91) circle (  1.96);
+
+\path[fill=fillColor] (102.22,444.71) --
+	(104.86,440.13) --
+	( 99.58,440.13) --
+	cycle;
+
+\path[fill=fillColor] (425.57,220.34) circle (  1.96);
+
+\path[fill=fillColor] (379.11,300.36) circle (  1.96);
+
+\path[fill=fillColor] (278.00,414.72) --
+	(280.64,410.15) --
+	(275.35,410.15) --
+	cycle;
+
+\path[fill=fillColor] (417.76,173.95) circle (  1.96);
+
+\path[fill=fillColor] ( 86.47,378.03) --
+	( 89.12,373.45) --
+	( 83.83,373.45) --
+	cycle;
+
+\path[fill=fillColor] ( 85.72,246.72) --
+	( 88.36,242.14) --
+	( 83.07,242.14) --
+	cycle;
+
+\path[fill=fillColor] (266.80, 73.60) circle (  1.96);
+
+\path[fill=fillColor] (205.95, 80.23) circle (  1.96);
+
+\path[fill=fillColor] (356.57,248.93) circle (  1.96);
+
+\path[fill=fillColor] (284.35,114.07) circle (  1.96);
+
+\path[fill=fillColor] (246.58,380.16) --
+	(249.22,375.59) --
+	(243.93,375.59) --
+	cycle;
+
+\path[fill=fillColor] ( 90.68,265.29) --
+	( 93.32,260.72) --
+	( 88.04,260.72) --
+	cycle;
+
+\path[fill=fillColor] ( 70.73,397.31) --
+	( 73.38,392.74) --
+	( 68.09,392.74) --
+	cycle;
+
+\path[fill=fillColor] (180.44,473.05) --
+	(183.09,468.47) --
+	(177.80,468.47) --
+	cycle;
+
+\path[fill=fillColor] ( 56.10,242.71) --
+	( 58.74,238.13) --
+	( 53.45,238.13) --
+	cycle;
+
+\path[fill=fillColor] (369.14,182.73) circle (  1.96);
+
+\path[fill=fillColor] (298.98,199.10) circle (  1.96);
+
+\path[fill=fillColor] (321.28,215.94) circle (  1.96);
+
+\path[fill=fillColor] (409.56,125.37) circle (  1.96);
+
+\path[fill=fillColor] (401.34, 77.31) circle (  1.96);
+
+\path[fill=fillColor] ( 86.37,256.60) --
+	( 89.01,252.02) --
+	( 83.73,252.02) --
+	cycle;
+
+\path[fill=fillColor] (119.36,423.76) --
+	(122.00,419.18) --
+	(116.72,419.18) --
+	cycle;
+
+\path[fill=fillColor] ( 87.50,471.42) --
+	( 90.14,466.85) --
+	( 84.86,466.85) --
+	cycle;
+
+\path[fill=fillColor] (371.61,131.40) circle (  1.96);
+
+\path[fill=fillColor] (352.10,122.25) circle (  1.96);
+
+\path[fill=fillColor] (340.43,221.02) circle (  1.96);
+
+\path[fill=fillColor] ( 75.18,358.62) --
+	( 77.83,354.04) --
+	( 72.54,354.04) --
+	cycle;
+
+\path[fill=fillColor] (100.95,266.10) --
+	(103.59,261.52) --
+	( 98.30,261.52) --
+	cycle;
+
+\path[fill=fillColor] (279.51, 83.03) circle (  1.96);
+
+\path[fill=fillColor] (252.00,462.68) --
+	(254.64,458.10) --
+	(249.35,458.10) --
+	cycle;
+
+\path[fill=fillColor] (203.67, 87.76) circle (  1.96);
+
+\path[fill=fillColor] (217.12,428.49) --
+	(219.76,423.91) --
+	(214.47,423.91) --
+	cycle;
+
+\path[fill=fillColor] (432.23,148.94) circle (  1.96);
+
+\path[fill=fillColor] (186.97,375.13) --
+	(189.61,370.55) --
+	(184.33,370.55) --
+	cycle;
+
+\path[fill=fillColor] (327.20,104.06) circle (  1.96);
+
+\path[fill=fillColor] (310.15,111.92) circle (  1.96);
+
+\path[fill=fillColor] (319.86,190.57) circle (  1.96);
+
+\path[fill=fillColor] (348.10,115.38) circle (  1.96);
+
+\path[fill=fillColor] (213.24,109.61) circle (  1.96);
+
+\path[fill=fillColor] (305.20,103.71) circle (  1.96);
+
+\path[fill=fillColor] (147.66,372.93) --
+	(150.30,368.36) --
+	(145.02,368.36) --
+	cycle;
+
+\path[fill=fillColor] (373.87,164.05) circle (  1.96);
+
+\path[fill=fillColor] (190.75,444.94) --
+	(193.39,440.36) --
+	(188.11,440.36) --
+	cycle;
+
+\path[fill=fillColor] (212.81,433.12) --
+	(215.45,428.54) --
+	(210.17,428.54) --
+	cycle;
+
+\path[fill=fillColor] ( 66.30,451.81) --
+	( 68.95,447.24) --
+	( 63.66,447.24) --
+	cycle;
+
+\path[fill=fillColor] ( 96.90,348.73) --
+	( 99.55,344.15) --
+	( 94.26,344.15) --
+	cycle;
+
+\path[fill=fillColor] (216.29,479.13) --
+	(218.94,474.56) --
+	(213.65,474.56) --
+	cycle;
+
+\path[fill=fillColor] (391.42,128.54) circle (  1.96);
+
+\path[fill=fillColor] (316.62,151.34) circle (  1.96);
+
+\path[fill=fillColor] ( 63.08,337.57) --
+	( 65.72,333.00) --
+	( 60.44,333.00) --
+	cycle;
+
+\path[fill=fillColor] (335.74,107.84) circle (  1.96);
+
+\path[fill=fillColor] (426.81,206.08) circle (  1.96);
+
+\path[fill=fillColor] ( 90.30,239.95) --
+	( 92.94,235.38) --
+	( 87.66,235.38) --
+	cycle;
+
+\path[fill=fillColor] (131.98,267.40) --
+	(134.62,262.82) --
+	(129.33,262.82) --
+	cycle;
+
+\path[fill=fillColor] (156.98,382.54) --
+	(159.63,377.97) --
+	(154.34,377.97) --
+	cycle;
+
+\path[fill=fillColor] ( 61.91,319.09) --
+	( 64.56,314.52) --
+	( 59.27,314.52) --
+	cycle;
+
+\path[fill=fillColor] (336.18,231.36) circle (  1.96);
+
+\path[fill=fillColor] (329.89,208.25) circle (  1.96);
+
+\path[fill=fillColor] (293.00,479.83) --
+	(295.65,475.25) --
+	(290.36,475.25) --
+	cycle;
+
+\path[fill=fillColor] ( 69.39,420.65) --
+	( 72.03,416.07) --
+	( 66.74,416.07) --
+	cycle;
+
+\path[fill=fillColor] (251.27,411.50) --
+	(253.91,406.93) --
+	(248.62,406.93) --
+	cycle;
+
+\path[fill=fillColor] (246.62,443.95) --
+	(249.26,439.37) --
+	(243.98,439.37) --
+	cycle;
+
+\path[fill=fillColor] (252.95,415.23) --
+	(255.59,410.66) --
+	(250.31,410.66) --
+	cycle;
+
+\path[fill=fillColor] (366.83, 96.16) circle (  1.96);
+
+\path[fill=fillColor] (418.15,265.14) circle (  1.96);
+
+\path[fill=fillColor] (349.92, 77.23) circle (  1.96);
+
+\path[fill=fillColor] (420.52,293.88) circle (  1.96);
+
+\path[fill=fillColor] (328.26, 54.84) circle (  1.96);
+
+\path[fill=fillColor] (354.00,123.32) circle (  1.96);
+
+\path[fill=fillColor] ( 70.01,378.49) --
+	( 72.66,373.91) --
+	( 67.37,373.91) --
+	cycle;
+
+\path[fill=fillColor] (423.96,150.96) circle (  1.96);
+
+\path[fill=fillColor] (369.06,182.16) circle (  1.96);
+
+\path[fill=fillColor] ( 69.26,440.91) --
+	( 71.90,436.34) --
+	( 66.62,436.34) --
+	cycle;
+
+\path[fill=fillColor] (318.51,471.27) --
+	(321.15,466.69) --
+	(315.87,466.69) --
+	cycle;
+
+\path[fill=fillColor] (323.90,207.59) circle (  1.96);
+
+\path[fill=fillColor] (269.03,476.00) --
+	(271.67,471.42) --
+	(266.38,471.42) --
+	cycle;
+
+\path[fill=fillColor] (350.66,113.22) circle (  1.96);
+
+\path[fill=fillColor] (319.45,105.62) circle (  1.96);
+
+\path[fill=fillColor] (367.35,227.25) circle (  1.96);
+
+\path[fill=fillColor] (377.89,161.80) circle (  1.96);
+
+\path[fill=fillColor] (275.45,119.45) circle (  1.96);
+
+\path[fill=fillColor] (155.51,387.72) --
+	(158.16,383.14) --
+	(152.87,383.14) --
+	cycle;
+
+\path[fill=fillColor] (380.87,180.37) circle (  1.96);
+
+\path[fill=fillColor] (370.62,217.59) circle (  1.96);
+
+\path[fill=fillColor] (301.82, 91.70) circle (  1.96);
+
+\path[fill=fillColor] (118.28,364.23) --
+	(120.92,359.65) --
+	(115.63,359.65) --
+	cycle;
+
+\path[fill=fillColor] (251.70,412.63) --
+	(254.35,408.05) --
+	(249.06,408.05) --
+	cycle;
+
+\path[fill=fillColor] (431.63,155.10) circle (  1.96);
+
+\path[fill=fillColor] (128.75,302.78) --
+	(131.39,298.20) --
+	(126.10,298.20) --
+	cycle;
+
+\path[fill=fillColor] (428.48,140.09) circle (  1.96);
+
+\path[fill=fillColor] (401.06, 79.09) circle (  1.96);
+
+\path[fill=fillColor] (394.54,174.75) circle (  1.96);
+
+\path[fill=fillColor] (204.61, 63.98) circle (  1.96);
+
+\path[fill=fillColor] (148.76,399.56) --
+	(151.41,394.99) --
+	(146.12,394.99) --
+	cycle;
+
+\path[fill=fillColor] (335.15,119.40) circle (  1.96);
+
+\path[fill=fillColor] (217.66, 61.62) circle (  1.96);
+
+\path[fill=fillColor] (115.85,349.91) --
+	(118.49,345.33) --
+	(113.21,345.33) --
+	cycle;
+
+\path[fill=fillColor] (421.12,325.83) circle (  1.96);
+
+\path[fill=fillColor] (390.53,117.28) circle (  1.96);
+
+\path[fill=fillColor] (234.54,448.44) --
+	(237.18,443.86) --
+	(231.89,443.86) --
+	cycle;
+
+\path[fill=fillColor] (148.82,296.49) --
+	(151.47,291.91) --
+	(146.18,291.91) --
+	cycle;
+
+\path[fill=fillColor] (263.15,152.68) circle (  1.96);
+
+\path[fill=fillColor] (291.96,171.75) circle (  1.96);
+
+\path[fill=fillColor] (339.96, 98.51) circle (  1.96);
+
+\path[fill=fillColor] (220.41,112.14) circle (  1.96);
+
+\path[fill=fillColor] ( 72.93,434.80) --
+	( 75.58,430.22) --
+	( 70.29,430.22) --
+	cycle;
+
+\path[fill=fillColor] (373.54,183.47) circle (  1.96);
+
+\path[fill=fillColor] (421.17, 50.99) circle (  1.96);
+
+\path[fill=fillColor] (335.05, 84.58) circle (  1.96);
+
+\path[fill=fillColor] (324.81,140.73) circle (  1.96);
+
+\path[fill=fillColor] (294.25,127.87) circle (  1.96);
+
+\path[fill=fillColor] (325.38,105.83) circle (  1.96);
+
+\path[fill=fillColor] (279.36,467.31) --
+	(282.00,462.74) --
+	(276.72,462.74) --
+	cycle;
+
+\path[fill=fillColor] (371.17, 78.66) circle (  1.96);
+
+\path[fill=fillColor] (118.06,322.55) --
+	(120.70,317.97) --
+	(115.41,317.97) --
+	cycle;
+
+\path[fill=fillColor] ( 80.79,396.96) --
+	( 83.44,392.38) --
+	( 78.15,392.38) --
+	cycle;
+
+\path[fill=fillColor] (225.60,368.53) --
+	(228.24,363.96) --
+	(222.95,363.96) --
+	cycle;
+
+\path[fill=fillColor] (426.53, 94.21) circle (  1.96);
+
+\path[fill=fillColor] (358.17,174.32) circle (  1.96);
+
+\path[fill=fillColor] (204.14,350.90) --
+	(206.78,346.33) --
+	(201.50,346.33) --
+	cycle;
+
+\path[fill=fillColor] ( 77.45,367.75) --
+	( 80.09,363.18) --
+	( 74.81,363.18) --
+	cycle;
+
+\path[fill=fillColor] (392.81,234.46) circle (  1.96);
+
+\path[fill=fillColor] (375.83,241.28) circle (  1.96);
+
+\path[fill=fillColor] (376.42,130.20) circle (  1.96);
+
+\path[fill=fillColor] (142.00,284.78) --
+	(144.65,280.21) --
+	(139.36,280.21) --
+	cycle;
+
+\path[fill=fillColor] (405.60,225.31) circle (  1.96);
+
+\path[fill=fillColor] (238.40,128.64) circle (  1.96);
+
+\path[fill=fillColor] (185.11,437.11) --
+	(187.75,432.53) --
+	(182.47,432.53) --
+	cycle;
+
+\path[fill=fillColor] ( 90.28,346.49) --
+	( 92.92,341.91) --
+	( 87.64,341.91) --
+	cycle;
+
+\path[fill=fillColor] (208.89, 62.18) circle (  1.96);
+
+\path[fill=fillColor] (129.20,286.99) --
+	(131.84,282.41) --
+	(126.56,282.41) --
+	cycle;
+
+\path[fill=fillColor] (388.66,151.63) circle (  1.96);
+
+\path[fill=fillColor] (390.52,214.39) circle (  1.96);
+
+\path[fill=fillColor] (108.12,261.50) --
+	(110.76,256.93) --
+	(105.48,256.93) --
+	cycle;
+
+\path[fill=fillColor] (314.53,115.29) circle (  1.96);
+
+\path[fill=fillColor] (198.20,460.31) --
+	(200.85,455.73) --
+	(195.56,455.73) --
+	cycle;
+
+\path[fill=fillColor] (103.52,241.88) --
+	(106.16,237.30) --
+	(100.88,237.30) --
+	cycle;
+
+\path[fill=fillColor] (251.18,429.79) --
+	(253.82,425.21) --
+	(248.54,425.21) --
+	cycle;
+
+\path[fill=fillColor] (407.12,310.22) circle (  1.96);
+
+\path[fill=fillColor] (387.79,161.54) circle (  1.96);
+
+\path[fill=fillColor] (136.26,355.80) --
+	(138.91,351.22) --
+	(133.62,351.22) --
+	cycle;
+
+\path[fill=fillColor] (194.81,325.39) --
+	(197.46,320.82) --
+	(192.17,320.82) --
+	cycle;
+
+\path[fill=fillColor] (121.41,273.24) --
+	(124.05,268.66) --
+	(118.77,268.66) --
+	cycle;
+
+\path[fill=fillColor] ( 66.01,174.66) --
+	( 68.66,170.08) --
+	( 63.37,170.08) --
+	cycle;
+
+\path[fill=fillColor] (339.76,106.01) circle (  1.96);
+
+\path[fill=fillColor] (237.31,465.03) --
+	(239.96,460.45) --
+	(234.67,460.45) --
+	cycle;
+
+\path[fill=fillColor] (148.99,458.31) --
+	(151.63,453.74) --
+	(146.35,453.74) --
+	cycle;
+
+\path[fill=fillColor] (337.65,115.07) circle (  1.96);
+
+\path[fill=fillColor] ( 58.22,391.72) --
+	( 60.86,387.14) --
+	( 55.58,387.14) --
+	cycle;
+
+\path[fill=fillColor] (344.17,104.54) circle (  1.96);
+
+\path[fill=fillColor] (400.60, 59.00) circle (  1.96);
+
+\path[fill=fillColor] (244.71,146.90) circle (  1.96);
+
+\path[fill=fillColor] ( 83.25,253.06) --
+	( 85.89,248.48) --
+	( 80.61,248.48) --
+	cycle;
+
+\path[fill=fillColor] (133.13,368.69) --
+	(135.77,364.11) --
+	(130.49,364.11) --
+	cycle;
+
+\path[fill=fillColor] (361.03,223.80) circle (  1.96);
+
+\path[fill=fillColor] (134.69,406.44) --
+	(137.33,401.87) --
+	(132.05,401.87) --
+	cycle;
+
+\path[fill=fillColor] (385.10,124.54) circle (  1.96);
+
+\path[fill=fillColor] (369.09, 81.16) circle (  1.96);
+
+\path[fill=fillColor] (206.35,103.00) circle (  1.96);
+
+\path[fill=fillColor] (139.83,283.76) --
+	(142.47,279.19) --
+	(137.19,279.19) --
+	cycle;
+
+\path[fill=fillColor] (369.26,213.35) circle (  1.96);
+
+\path[fill=fillColor] (124.73,427.35) --
+	(127.37,422.77) --
+	(122.09,422.77) --
+	cycle;
+
+\path[fill=fillColor] ( 88.48,215.54) --
+	( 91.13,210.97) --
+	( 85.84,210.97) --
+	cycle;
+
+\path[fill=fillColor] (151.32,413.65) --
+	(153.96,409.07) --
+	(148.67,409.07) --
+	cycle;
+
+\path[fill=fillColor] (412.45,102.73) circle (  1.96);
+
+\path[fill=fillColor] (105.97,262.28) --
+	(108.61,257.70) --
+	(103.33,257.70) --
+	cycle;
+
+\path[fill=fillColor] (113.75,284.43) --
+	(116.40,279.85) --
+	(111.11,279.85) --
+	cycle;
+
+\path[fill=fillColor] (265.97, 58.84) circle (  1.96);
+
+\path[fill=fillColor] (265.41,400.40) --
+	(268.05,395.82) --
+	(262.77,395.82) --
+	cycle;
+
+\path[fill=fillColor] ( 63.60,421.17) --
+	( 66.24,416.60) --
+	( 60.95,416.60) --
+	cycle;
+
+\path[fill=fillColor] (268.43,126.80) circle (  1.96);
+
+\path[fill=fillColor] (325.70,220.09) circle (  1.96);
+
+\path[fill=fillColor] (433.99, 91.04) circle (  1.96);
+
+\path[fill=fillColor] (288.80,126.13) circle (  1.96);
+
+\path[fill=fillColor] (329.82,147.31) circle (  1.96);
+
+\path[fill=fillColor] (108.56,438.22) --
+	(111.20,433.64) --
+	(105.92,433.64) --
+	cycle;
+
+\path[fill=fillColor] ( 85.32,269.82) --
+	( 87.97,265.25) --
+	( 82.68,265.25) --
+	cycle;
+
+\path[fill=fillColor] (300.26,129.11) circle (  1.96);
+
+\path[fill=fillColor] (410.53, 91.52) circle (  1.96);
+
+\path[fill=fillColor] (139.58,383.91) --
+	(142.23,379.33) --
+	(136.94,379.33) --
+	cycle;
+
+\path[fill=fillColor] (399.85,212.17) circle (  1.96);
+
+\path[fill=fillColor] (417.27,231.13) circle (  1.96);
+
+\path[fill=fillColor] (123.02,344.30) --
+	(125.67,339.73) --
+	(120.38,339.73) --
+	cycle;
+
+\path[fill=fillColor] (401.22,165.17) circle (  1.96);
+
+\path[fill=fillColor] (179.17,371.12) --
+	(181.81,366.54) --
+	(176.53,366.54) --
+	cycle;
+
+\path[fill=fillColor] (205.04,374.75) --
+	(207.68,370.18) --
+	(202.40,370.18) --
+	cycle;
+
+\path[fill=fillColor] (406.05,120.08) circle (  1.96);
+
+\path[fill=fillColor] (155.77,291.39) --
+	(158.42,286.81) --
+	(153.13,286.81) --
+	cycle;
+
+\path[fill=fillColor] (421.80,165.15) circle (  1.96);
+
+\path[fill=fillColor] (155.66,368.73) --
+	(158.30,364.15) --
+	(153.02,364.15) --
+	cycle;
+
+\path[fill=fillColor] (261.34, 79.75) circle (  1.96);
+
+\path[fill=fillColor] (377.37, 91.78) circle (  1.96);
+
+\path[fill=fillColor] (360.59,120.37) circle (  1.96);
+
+\path[fill=fillColor] (278.52, 77.41) circle (  1.96);
+
+\path[fill=fillColor] (229.96,394.29) --
+	(232.60,389.71) --
+	(227.32,389.71) --
+	cycle;
+
+\path[fill=fillColor] (298.56,475.69) --
+	(301.20,471.11) --
+	(295.92,471.11) --
+	cycle;
+
+\path[fill=fillColor] (331.80,474.39) --
+	(334.45,469.81) --
+	(329.16,469.81) --
+	cycle;
+
+\path[fill=fillColor] (101.68,477.05) --
+	(104.32,472.47) --
+	( 99.03,472.47) --
+	cycle;
+
+\path[fill=fillColor] (391.53,266.16) circle (  1.96);
+
+\path[fill=fillColor] (208.71,472.80) --
+	(211.35,468.22) --
+	(206.07,468.22) --
+	cycle;
+
+\path[fill=fillColor] (347.15,156.71) circle (  1.96);
+
+\path[fill=fillColor] (410.52,279.47) circle (  1.96);
+
+\path[fill=fillColor] (179.85,412.15) --
+	(182.49,407.57) --
+	(177.20,407.57) --
+	cycle;
+
+\path[fill=fillColor] (362.84,154.69) circle (  1.96);
+
+\path[fill=fillColor] (319.52,115.01) circle (  1.96);
+
+\path[fill=fillColor] (125.69,373.15) --
+	(128.34,368.57) --
+	(123.05,368.57) --
+	cycle;
+
+\path[fill=fillColor] (240.47, 88.09) circle (  1.96);
+
+\path[fill=fillColor] (185.46,374.52) --
+	(188.11,369.94) --
+	(182.82,369.94) --
+	cycle;
+
+\path[fill=fillColor] (367.10,266.80) circle (  1.96);
+
+\path[fill=fillColor] (175.96,350.00) --
+	(178.60,345.43) --
+	(173.32,345.43) --
+	cycle;
+
+\path[fill=fillColor] ( 62.26,412.15) --
+	( 64.90,407.57) --
+	( 59.62,407.57) --
+	cycle;
+
+\path[fill=fillColor] ( 74.74,195.52) --
+	( 77.38,190.95) --
+	( 72.10,190.95) --
+	cycle;
+
+\path[fill=fillColor] ( 90.96,283.89) --
+	( 93.61,279.31) --
+	( 88.32,279.31) --
+	cycle;
+
+\path[fill=fillColor] (168.27,417.38) --
+	(170.91,412.80) --
+	(165.63,412.80) --
+	cycle;
+
+\path[fill=fillColor] (122.53,423.75) --
+	(125.18,419.17) --
+	(119.89,419.17) --
+	cycle;
+
+\path[fill=fillColor] ( 88.55,430.46) --
+	( 91.19,425.88) --
+	( 85.90,425.88) --
+	cycle;
+
+\path[fill=fillColor] (314.79,134.39) circle (  1.96);
+
+\path[fill=fillColor] (148.92,353.92) --
+	(151.57,349.34) --
+	(146.28,349.34) --
+	cycle;
+
+\path[fill=fillColor] (276.51, 81.01) circle (  1.96);
+
+\path[fill=fillColor] (411.04,312.85) circle (  1.96);
+
+\path[fill=fillColor] (150.87,345.78) --
+	(153.52,341.20) --
+	(148.23,341.20) --
+	cycle;
+
+\path[fill=fillColor] (317.01, 91.91) circle (  1.96);
+
+\path[fill=fillColor] (256.23, 96.91) circle (  1.96);
+
+\path[fill=fillColor] (422.01,284.51) circle (  1.96);
+
+\path[fill=fillColor] (215.57,458.42) --
+	(218.21,453.85) --
+	(212.93,453.85) --
+	cycle;
+
+\path[fill=fillColor] (228.30,472.53) --
+	(230.94,467.95) --
+	(225.66,467.95) --
+	cycle;
+
+\path[fill=fillColor] (228.65, 68.17) circle (  1.96);
+
+\path[fill=fillColor] (105.23,480.96) --
+	(107.87,476.38) --
+	(102.59,476.38) --
+	cycle;
+
+\path[fill=fillColor] ( 75.65,335.34) --
+	( 78.29,330.76) --
+	( 73.01,330.76) --
+	cycle;
+
+\path[fill=fillColor] (399.69,214.62) circle (  1.96);
+
+\path[fill=fillColor] (141.25,420.50) --
+	(143.89,415.92) --
+	(138.60,415.92) --
+	cycle;
+
+\path[fill=fillColor] (125.31,240.01) --
+	(127.96,235.44) --
+	(122.67,235.44) --
+	cycle;
+
+\path[fill=fillColor] (116.93,471.87) --
+	(119.57,467.29) --
+	(114.28,467.29) --
+	cycle;
+
+\path[fill=fillColor] (219.75,115.23) circle (  1.96);
+
+\path[fill=fillColor] (414.03,165.83) circle (  1.96);
+
+\path[fill=fillColor] (146.31,417.75) --
+	(148.95,413.17) --
+	(143.67,413.17) --
+	cycle;
+
+\path[fill=fillColor] (255.51,395.82) --
+	(258.16,391.24) --
+	(252.87,391.24) --
+	cycle;
+
+\path[fill=fillColor] (104.57,272.66) --
+	(107.21,268.08) --
+	(101.93,268.08) --
+	cycle;
+
+\path[fill=fillColor] (286.85,153.69) circle (  1.96);
+
+\path[fill=fillColor] (157.69,344.39) --
+	(160.34,339.81) --
+	(155.05,339.81) --
+	cycle;
+
+\path[fill=fillColor] ( 89.13,364.16) --
+	( 91.77,359.58) --
+	( 86.49,359.58) --
+	cycle;
+
+\path[fill=fillColor] (145.54,466.93) --
+	(148.18,462.35) --
+	(142.89,462.35) --
+	cycle;
+
+\path[fill=fillColor] (349.20,160.33) circle (  1.96);
+
+\path[fill=fillColor] (199.73, 83.23) circle (  1.96);
+
+\path[fill=fillColor] (160.36,439.66) --
+	(163.00,435.09) --
+	(157.72,435.09) --
+	cycle;
+
+\path[fill=fillColor] (364.08,131.31) circle (  1.96);
+
+\path[fill=fillColor] ( 70.40,450.15) --
+	( 73.05,445.57) --
+	( 67.76,445.57) --
+	cycle;
+
+\path[fill=fillColor] (109.63,333.00) --
+	(112.27,328.42) --
+	(106.99,328.42) --
+	cycle;
+
+\path[fill=fillColor] (322.07,147.08) circle (  1.96);
+
+\path[fill=fillColor] (117.60,265.12) --
+	(120.25,260.55) --
+	(114.96,260.55) --
+	cycle;
+
+\path[fill=fillColor] (149.79,319.17) --
+	(152.43,314.59) --
+	(147.15,314.59) --
+	cycle;
+
+\path[fill=fillColor] (280.33, 96.14) circle (  1.96);
+
+\path[fill=fillColor] (410.19,275.58) circle (  1.96);
+
+\path[fill=fillColor] (399.05,125.93) circle (  1.96);
+
+\path[fill=fillColor] (398.85,183.83) circle (  1.96);
+
+\path[fill=fillColor] (422.94,335.22) circle (  1.96);
+
+\path[fill=fillColor] (353.48,158.27) circle (  1.96);
+
+\path[fill=fillColor] ( 92.96,417.16) --
+	( 95.60,412.59) --
+	( 90.32,412.59) --
+	cycle;
+
+\path[fill=fillColor] (211.31,474.79) --
+	(213.95,470.21) --
+	(208.66,470.21) --
+	cycle;
+
+\path[fill=fillColor] (217.78,459.70) --
+	(220.42,455.12) --
+	(215.13,455.12) --
+	cycle;
+
+\path[fill=fillColor] (190.06,424.16) --
+	(192.70,419.58) --
+	(187.42,419.58) --
+	cycle;
+
+\path[fill=fillColor] (326.52,222.13) circle (  1.96);
+
+\path[fill=fillColor] (297.78,470.50) --
+	(300.42,465.92) --
+	(295.14,465.92) --
+	cycle;
+
+\path[fill=fillColor] (267.89,142.93) circle (  1.96);
+
+\path[fill=fillColor] (338.29,148.94) circle (  1.96);
+
+\path[fill=fillColor] (199.10, 83.63) circle (  1.96);
+
+\path[fill=fillColor] (166.25,451.95) --
+	(168.89,447.38) --
+	(163.61,447.38) --
+	cycle;
+
+\path[fill=fillColor] (166.71,303.99) --
+	(169.35,299.41) --
+	(164.06,299.41) --
+	cycle;
+
+\path[fill=fillColor] (397.23,214.76) circle (  1.96);
+
+\path[fill=fillColor] (212.62,420.12) --
+	(215.27,415.54) --
+	(209.98,415.54) --
+	cycle;
+
+\path[fill=fillColor] (218.02,472.68) --
+	(220.67,468.10) --
+	(215.38,468.10) --
+	cycle;
+
+\path[fill=fillColor] (203.72, 89.38) circle (  1.96);
+
+\path[fill=fillColor] (208.92, 59.11) circle (  1.96);
+
+\path[fill=fillColor] (415.74,331.00) circle (  1.96);
+
+\path[fill=fillColor] (262.57,159.93) circle (  1.96);
+
+\path[fill=fillColor] ( 98.95,391.50) --
+	(101.59,386.92) --
+	( 96.30,386.92) --
+	cycle;
+
+\path[fill=fillColor] (157.17,420.94) --
+	(159.81,416.37) --
+	(154.52,416.37) --
+	cycle;
+
+\path[fill=fillColor] (111.50,350.32) --
+	(114.14,345.74) --
+	(108.85,345.74) --
+	cycle;
+
+\path[fill=fillColor] (376.89, 59.57) circle (  1.96);
+
+\path[fill=fillColor] (378.33, 70.51) circle (  1.96);
+
+\path[fill=fillColor] (427.22,223.68) circle (  1.96);
+
+\path[fill=fillColor] (425.55,310.78) circle (  1.96);
+
+\path[fill=fillColor] ( 81.11,333.44) --
+	( 83.75,328.86) --
+	( 78.47,328.86) --
+	cycle;
+
+\path[fill=fillColor] (158.62,461.28) --
+	(161.26,456.71) --
+	(155.98,456.71) --
+	cycle;
+
+\path[fill=fillColor] ( 74.06,297.66) --
+	( 76.70,293.08) --
+	( 71.41,293.08) --
+	cycle;
+
+\path[fill=fillColor] (405.63,172.54) circle (  1.96);
+
+\path[fill=fillColor] (268.09,164.04) circle (  1.96);
+
+\path[fill=fillColor] (295.85,473.69) --
+	(298.49,469.11) --
+	(293.20,469.11) --
+	cycle;
+
+\path[fill=fillColor] (179.55,358.52) --
+	(182.19,353.95) --
+	(176.91,353.95) --
+	cycle;
+
+\path[fill=fillColor] (363.97,171.66) circle (  1.96);
+
+\path[fill=fillColor] (175.31,364.55) --
+	(177.95,359.97) --
+	(172.67,359.97) --
+	cycle;
+
+\path[fill=fillColor] ( 91.96,409.23) --
+	( 94.60,404.65) --
+	( 89.32,404.65) --
+	cycle;
+
+\path[fill=fillColor] (367.27,106.40) circle (  1.96);
+
+\path[fill=fillColor] (182.21,373.53) --
+	(184.85,368.95) --
+	(179.56,368.95) --
+	cycle;
+
+\path[fill=fillColor] (184.33,377.72) --
+	(186.97,373.14) --
+	(181.69,373.14) --
+	cycle;
+
+\path[fill=fillColor] (288.56,190.37) circle (  1.96);
+
+\path[fill=fillColor] (232.47,389.40) --
+	(235.11,384.82) --
+	(229.83,384.82) --
+	cycle;
+
+\path[fill=fillColor] ( 70.06,214.37) --
+	( 72.71,209.79) --
+	( 67.42,209.79) --
+	cycle;
+
+\path[fill=fillColor] ( 78.90,317.30) --
+	( 81.54,312.73) --
+	( 76.25,312.73) --
+	cycle;
+
+\path[fill=fillColor] (144.68,451.29) --
+	(147.33,446.72) --
+	(142.04,446.72) --
+	cycle;
+
+\path[fill=fillColor] (215.18,351.95) --
+	(217.82,347.37) --
+	(212.54,347.37) --
+	cycle;
+
+\path[fill=fillColor] (131.14,413.92) --
+	(133.78,409.34) --
+	(128.50,409.34) --
+	cycle;
+
+\path[fill=fillColor] (392.77, 77.27) circle (  1.96);
+
+\path[fill=fillColor] (317.22,100.95) circle (  1.96);
+
+\path[fill=fillColor] (346.74,135.98) circle (  1.96);
+
+\path[fill=fillColor] (284.65, 61.97) circle (  1.96);
+
+\path[fill=fillColor] (416.55,338.81) circle (  1.96);
+
+\path[fill=fillColor] (410.61,329.23) circle (  1.96);
+
+\path[fill=fillColor] (363.47,146.60) circle (  1.96);
+
+\path[fill=fillColor] (325.17,168.42) circle (  1.96);
+
+\path[fill=fillColor] (108.86,227.28) --
+	(111.50,222.70) --
+	(106.22,222.70) --
+	cycle;
+
+\path[fill=fillColor] (166.40,366.15) --
+	(169.04,361.57) --
+	(163.76,361.57) --
+	cycle;
+
+\path[fill=fillColor] ( 96.45,447.45) --
+	( 99.09,442.87) --
+	( 93.81,442.87) --
+	cycle;
+
+\path[fill=fillColor] (366.64,134.73) circle (  1.96);
+
+\path[fill=fillColor] (355.85,204.08) circle (  1.96);
+
+\path[fill=fillColor] (228.23, 84.77) circle (  1.96);
+
+\path[fill=fillColor] (378.04,152.46) circle (  1.96);
+
+\path[fill=fillColor] (374.52, 70.43) circle (  1.96);
+
+\path[fill=fillColor] (312.41,213.13) circle (  1.96);
+
+\path[fill=fillColor] (111.42,415.43) --
+	(114.06,410.85) --
+	(108.77,410.85) --
+	cycle;
+
+\path[fill=fillColor] (262.36,422.52) --
+	(265.01,417.95) --
+	(259.72,417.95) --
+	cycle;
+
+\path[fill=fillColor] (378.59,122.10) circle (  1.96);
+
+\path[fill=fillColor] ( 86.33,211.37) --
+	( 88.97,206.79) --
+	( 83.69,206.79) --
+	cycle;
+
+\path[fill=fillColor] ( 62.30,399.55) --
+	( 64.94,394.97) --
+	( 59.66,394.97) --
+	cycle;
+
+\path[fill=fillColor] (337.12,133.43) circle (  1.96);
+
+\path[fill=fillColor] (129.78,282.52) --
+	(132.42,277.95) --
+	(127.13,277.95) --
+	cycle;
+
+\path[fill=fillColor] (264.43,119.05) circle (  1.96);
+
+\path[fill=fillColor] (366.99,109.87) circle (  1.96);
+
+\path[fill=fillColor] (171.33,474.42) --
+	(173.98,469.84) --
+	(168.69,469.84) --
+	cycle;
+
+\path[fill=fillColor] (368.85,154.29) circle (  1.96);
+
+\path[fill=fillColor] (105.30,365.96) --
+	(107.94,361.39) --
+	(102.65,361.39) --
+	cycle;
+
+\path[fill=fillColor] (299.10,167.60) circle (  1.96);
+
+\path[fill=fillColor] (255.67,478.22) --
+	(258.31,473.64) --
+	(253.02,473.64) --
+	cycle;
+
+\path[fill=fillColor] (178.93,448.67) --
+	(181.57,444.09) --
+	(176.29,444.09) --
+	cycle;
+
+\path[fill=fillColor] (376.15,160.32) circle (  1.96);
+
+\path[fill=fillColor] (403.76,155.96) circle (  1.96);
+
+\path[fill=fillColor] (342.28, 90.01) circle (  1.96);
+
+\path[fill=fillColor] (219.22,359.29) --
+	(221.86,354.71) --
+	(216.58,354.71) --
+	cycle;
+
+\path[fill=fillColor] (285.54, 81.69) circle (  1.96);
+
+\path[fill=fillColor] (400.41,216.65) circle (  1.96);
+
+\path[fill=fillColor] (120.65,363.60) --
+	(123.29,359.02) --
+	(118.01,359.02) --
+	cycle;
+
+\path[fill=fillColor] (312.54,201.62) circle (  1.96);
+
+\path[fill=fillColor] (433.09,244.50) circle (  1.96);
+
+\path[fill=fillColor] (386.98,225.64) circle (  1.96);
+
+\path[fill=fillColor] (349.97,139.63) circle (  1.96);
+
+\path[fill=fillColor] ( 68.43,312.50) --
+	( 71.07,307.92) --
+	( 65.79,307.92) --
+	cycle;
+
+\path[fill=fillColor] (221.96, 81.06) circle (  1.96);
+
+\path[fill=fillColor] (201.85,425.39) --
+	(204.49,420.81) --
+	(199.21,420.81) --
+	cycle;
+
+\path[fill=fillColor] (403.12,196.84) circle (  1.96);
+
+\path[fill=fillColor] (290.57,468.58) --
+	(293.21,464.00) --
+	(287.93,464.00) --
+	cycle;
+
+\path[fill=fillColor] (147.38,271.29) --
+	(150.02,266.72) --
+	(144.73,266.72) --
+	cycle;
+
+\path[fill=fillColor] (163.98,472.95) --
+	(166.62,468.37) --
+	(161.33,468.37) --
+	cycle;
+
+\path[fill=fillColor] (393.93,131.38) circle (  1.96);
+
+\path[fill=fillColor] (197.47, 66.26) circle (  1.96);
+
+\path[fill=fillColor] (315.74,197.80) circle (  1.96);
+
+\path[fill=fillColor] ( 88.70,261.91) --
+	( 91.34,257.33) --
+	( 86.06,257.33) --
+	cycle;
+
+\path[fill=fillColor] (102.57,286.03) --
+	(105.22,281.45) --
+	( 99.93,281.45) --
+	cycle;
+
+\path[fill=fillColor] (411.54,303.44) circle (  1.96);
+
+\path[fill=fillColor] ( 99.16,467.57) --
+	(101.81,462.99) --
+	( 96.52,462.99) --
+	cycle;
+
+\path[fill=fillColor] (363.18,120.59) circle (  1.96);
+
+\path[fill=fillColor] (402.04,189.42) circle (  1.96);
+
+\path[fill=fillColor] (142.67,293.53) --
+	(145.31,288.95) --
+	(140.03,288.95) --
+	cycle;
+
+\path[fill=fillColor] (300.34,206.47) circle (  1.96);
+
+\path[fill=fillColor] (245.25,267.98) --
+	(247.89,263.41) --
+	(242.61,263.41) --
+	cycle;
+
+\path[fill=fillColor] (292.54,321.67) --
+	(295.19,317.09) --
+	(289.90,317.09) --
+	cycle;
+
+\path[fill=fillColor] (292.54,264.93) circle (  1.96);
+\definecolor{drawColor}{gray}{0.20}
+
+\path[draw=drawColor,line width= 0.6pt,line join=round,line cap=round] ( 37.20, 29.59) rectangle (452.88,500.39);
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (505.89,505.89);
+\definecolor{drawColor}{gray}{0.30}
+
+\node[text=drawColor,anchor=base east,inner sep=0pt, outer sep=0pt, scale=  0.88] at ( 32.25, 47.16) {-20};
+
+\node[text=drawColor,anchor=base east,inner sep=0pt, outer sep=0pt, scale=  0.88] at ( 32.25,154.53) {-10};
+
+\node[text=drawColor,anchor=base east,inner sep=0pt, outer sep=0pt, scale=  0.88] at ( 32.25,261.90) {0};
+
+\node[text=drawColor,anchor=base east,inner sep=0pt, outer sep=0pt, scale=  0.88] at ( 32.25,369.28) {10};
+
+\node[text=drawColor,anchor=base east,inner sep=0pt, outer sep=0pt, scale=  0.88] at ( 32.25,476.65) {20};
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (505.89,505.89);
+\definecolor{drawColor}{gray}{0.20}
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] ( 34.45, 50.19) --
+	( 37.20, 50.19);
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] ( 34.45,157.56) --
+	( 37.20,157.56);
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] ( 34.45,264.93) --
+	( 37.20,264.93);
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] ( 34.45,372.31) --
+	( 37.20,372.31);
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] ( 34.45,479.68) --
+	( 37.20,479.68);
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (505.89,505.89);
+\definecolor{drawColor}{gray}{0.20}
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] ( 56.09, 26.84) --
+	( 56.09, 29.59);
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] (150.67, 26.84) --
+	(150.67, 29.59);
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] (245.25, 26.84) --
+	(245.25, 29.59);
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] (339.83, 26.84) --
+	(339.83, 29.59);
+
+\path[draw=drawColor,line width= 0.6pt,line join=round] (434.42, 26.84) --
+	(434.42, 29.59);
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (505.89,505.89);
+\definecolor{drawColor}{gray}{0.30}
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  0.88] at ( 56.09, 18.58) {-20};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  0.88] at (150.67, 18.58) {-10};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  0.88] at (245.25, 18.58) {0};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  0.88] at (339.83, 18.58) {10};
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  0.88] at (434.42, 18.58) {20};
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (505.89,505.89);
+\definecolor{drawColor}{RGB}{0,0,0}
+
+\node[text=drawColor,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.10] at (245.04,  5.50) {x};
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (505.89,505.89);
+\definecolor{drawColor}{RGB}{0,0,0}
+
+\node[text=drawColor,rotate= 90.00,anchor=base,inner sep=0pt, outer sep=0pt, scale=  1.10] at ( 13.08,264.99) {y};
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (505.89,505.89);
+\definecolor{fillColor}{RGB}{255,255,255}
+
+\path[fill=fillColor] (464.26,239.25) rectangle (500.39,290.73);
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (505.89,505.89);
+\definecolor{drawColor}{RGB}{0,0,0}
+
+\node[text=drawColor,anchor=base west,inner sep=0pt, outer sep=0pt, scale=  1.10] at (469.96,277.46) {Type};
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (505.89,505.89);
+\definecolor{fillColor}{RGB}{255,255,255}
+
+\path[fill=fillColor] (469.96,259.39) rectangle (484.41,273.85);
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (505.89,505.89);
+\definecolor{fillColor}{RGB}{0,0,0}
+
+\path[fill=fillColor] (477.18,266.62) circle (  1.96);
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (505.89,505.89);
+\definecolor{fillColor}{RGB}{255,255,255}
+
+\path[fill=fillColor] (469.96,244.94) rectangle (484.41,259.39);
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (505.89,505.89);
+\definecolor{fillColor}{RGB}{0,0,0}
+
+\path[fill=fillColor] (477.18,255.22) --
+	(479.82,250.64) --
+	(474.54,250.64) --
+	cycle;
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (505.89,505.89);
+\definecolor{drawColor}{RGB}{0,0,0}
+
+\node[text=drawColor,anchor=base west,inner sep=0pt, outer sep=0pt, scale=  0.88] at (486.22,263.59) {0};
+\end{scope}
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (505.89,505.89);
+\definecolor{drawColor}{RGB}{0,0,0}
+
+\node[text=drawColor,anchor=base west,inner sep=0pt, outer sep=0pt, scale=  0.88] at (486.22,249.14) {1};
+\end{scope}
