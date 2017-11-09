@@ -127,6 +127,14 @@ sorting = none]{biblatex}
 
 
 \begin{sol}
+\begin{enumerate}
+\item $A(dR)B$
+\item $2r'dr$
+\item $r'(A'+A)dr$
+\item $R^{-1}\cdot dR \cdot R^{-1}$
+\item $-\sin(r'r)\cdot 2r'dr$
+\item $\frac{r'(A'+A)dr \cdot r'r - r'Ar2r'dr}{(r'r)^2}$
+\end{enumerate}
 \end{sol}
 \end{problem}
 
@@ -145,6 +153,11 @@ Q(\hb) = (y - X\hb)'(y - X\hb).
 
 
 \begin{sol}
+\begin{enumerate}
+\item $dQ(\hb) = 2(y-X\hb)^T (-X) d\hb$, $d^2Q(\hb) = 2d\hb X^2 d\hb$
+\item $dQ(\hb) = 0$
+\item $\hb = (X^T X)^{-1} X^T y$
+\end{enumerate}
 \end{sol}
 \end{problem}
 
@@ -162,6 +175,11 @@ Q(\hb) = (y - X\hb)'(y - X\hb) + \lambda \hb' \hb,
 \end{enumerate}
 
 \begin{sol}
+\begin{enumerate}
+\item $dQ(\hb) = -2((y-X\hb)^T X + \lambda \hb^T) d\hb$, $d^2Q(\hb)=2d\hb^T(X^T X - \lambda I) d\hb$
+\item $dQ(\hb) = 0$
+\item $\hb = (X^T X - \lambda I)^{-1} X^T y$
+\end{enumerate}
 \end{sol}
 \end{problem}
 
@@ -222,6 +240,11 @@ Q(w) = (y - Xw)^T(y - Xw) \to \min_{w}.
 \end{enumerate}
 
 \begin{sol}
+\begin{enumerate}
+\item $dQ(w) = 2(Xw - y)^T X dw$, $d^2Q(w) = 2 dw^T X^T X dw$
+\item $w = (X^T X)^{-1} X^T y$
+\item $\hat y = Xw = X (X^T X)^{-1} X^T y \Rightarrow H = X (X^T X)^{-1} X^T$
+\end{enumerate}
 \end{sol}
 \end{problem}
 
@@ -234,6 +257,13 @@ Q(w) = (y - Xw)^T(y - Xw) \to \min_{w}.
 \end{enumerate}
 
 \begin{sol}
+\begin{enumerate}
+\item Выпишем $dQ(W)$ и найдём градиент:
+\[ dQ(w) = 2(Xw - y)^T X dw + 2 \lambda w^T dw \Rightarrow \nabla Q (w) = 2 X^T (Xw - y) + 2 \lambda w \]
+Приравняв градиент к нулю, получим:
+\[w = (X^T X + \lambda I)^{-1} X^T y \]
+\item
+\end{enumerate}
 \end{sol}
 \end{problem}
 
@@ -269,7 +299,16 @@ y_n - \hat y_n = (1 - H_{nn}) (y_n - \hat y_n^-)
 \end{enumerate}
 
 \begin{sol}
-$(5, 6, -7)$
+  \begin{enumerate}
+  \item $(5, 6, -7)$
+  \item Подставим точки $A$ и $B$ в уравнение плоскости:
+  \[A: 5 \cdot 2 + 6 \cdot 1 - 7 \cdot 4 + 10 = -2 \]
+  \[B: 5 \cdot 4 + 6 \cdot 0 - 7 \cdot 4 + 10 = 2 \]
+  Точки $A$ и $B$ лежат по разные стороны плоскости, следовательно, отрезок $AB$ пересекает её.
+  \item $\overrightarrow{AB} = (2, -1, 0)$, $|AB| = \sqrt{4 + 1 + 0} = \sqrt{5}$
+  \item Расстояние одинаково % на семинаре условие было изменено
+  \item $\rho = \frac{|5 \cdot 2 + 6 \cdot 1 - 7 \cdot 4 + 10|}{\sqrt{5^2 + 6^2 + 7^2}} = \frac{2}{\sqrt{10}}$
+  \end{enumerate}
 \end{sol}
 \end{problem}
 
@@ -277,6 +316,7 @@ $(5, 6, -7)$
 \begin{problem}
 Рассмотрим простейший персептрон с константой, единственным входом $x_1$ и пороговой функцией активации. Подберите веса так, чтобы персептрон реализовывал логическое отрицание (в ответ на 0 выдавал 1, и наоборот).
 \begin{sol}
+Например, $w_1 = -2$, $w_0 = 2$, где $w_0$ — вес при константе.
 \end{sol}
 \end{problem}
 
@@ -294,6 +334,16 @@ $(5, 6, -7)$
 \end{enumerate}
 
 \begin{sol}
+\begin{enumerate}
+\item Например, $w_1 = 2, w_2 = 2, w_0 = 0$
+\item Например, $w_1 = 2, w_2 = 2, w_0 = -2$
+\item Можно показать графически: нарисовать на плоскости точки $(0,0), (1,1), (1,0), (0,1)$, причём для первых двух
+нейрон должен выдавать ответ $0$, а для вторых — $1$. Чтобы разделить эти точки, необходимо провести две прямые,
+в то время как один нейрон проводит только одну.
+\item Например, подойдут веса $w_1 = 3, w_2 = 3, w_3 = -5, w_0 = -1$
+\item Первый нейрон с весами $w_{11} = 1, w_{12} = 1, w_{10} = 1/2$ и второй нейрон с весами $w_{21} = 1, w_{22} = 1, w_{10} = -1/2$
+должны подавать реузльтаты на вход третьему нейрону с весами $w_{31} = 3, w_{32} = -1, w_{30} = -2$
+\end{enumerate}
 \end{sol}
 \end{problem}
 
@@ -405,6 +455,10 @@ a_i = \begin{cases}
 
 
 \begin{sol}
+\begin{enumerate}
+\item $f(t) = \log(t)$
+\item Среднее гармоническое < среднее геометрическое < среднее арифметическое
+\end{enumerate}
 \end{sol}
 \end{problem}
 
@@ -420,6 +474,12 @@ a_i = \begin{cases}
 
 Закончите определения Бандерлога так, чтобы они были, хм, правильными.
 \begin{sol}
+\begin{enumerate}
+\item $\text{accuracy} = \frac{\text{TP} + \text{TN}}{\text{TP} +\text{FP} +\text{FN} +\text{TN}}$
+\item $\text{precision} = \frac{\text{TP}}{\text{TP} +\text{FP}}$
+\item $\text{recall} = \frac{\text{TP}}{\text{TP} +\text{FN}}$
+\item $\text{TPR} = \frac{\text{TP}}{\text{TP} +\text{FN}}$
+\end{enumerate}
 \end{sol}
 \end{problem}
 
@@ -452,6 +512,24 @@ a_i = \begin{cases}
   \end{cases}$;
 \end{enumerate}
 \begin{sol}
+\begin{enumerate}
+\item Поскольку все признаки одинаковы, то $\forall i \quad b_i = f(x_i) = b$, и функционал ошибки иммет вид:
+\[Q(b) = \frac{1}{1000} \sum_{i=1}^{1000} L(y_i, b) = \frac{1}{1000} \left(\sum_{i=1}^{900} b^2 + \sum_{i=1}^{100} (1-b)^2\right) \to \min_{b} \]
+Дифференцируем и находим $b$:
+\[2 \cdot 900 \cdot b - 2 \cdot 100 \cdot (1-b) = 0 \Rightarrow b = 0.1 \]
+\item Аналогично:
+\[Q(b) =  \frac{1}{1000} \sum_{i=1}^{1000} |y_i - b| = \frac{1}{1000} \left(900 \cdot b + 100|1-b| \right) \to \min_{b} \]
+При $b=1$, получаем: $Q(1) = 0.9$
+При $b<1$: $Q(b) = \frac{1}{1000} \left(900b + 100 - 100b \right) = \frac{1}{1000} \left(900b+100 \right)\to \min_{b}$.
+Минимум функционала ошибки достигается при $b=0$ и равен $0.1$.
+\item Снова выпишем функционал ошибки:
+\[Q(b) = \frac{1}{1000} \left(-900 \log(1-b) + 100 \log b  \right) \to \min_b \]
+Берём производную и получаем оптимальный $b$:
+\[\frac{1}{1000} \left(\frac{900}{1-b} - \frac{100}{b} \right) = 0 \Rightarrow b = 0.1 \]
+\item \[Q(b) = \frac{1}{1000} \left(\frac{900}{1-b} - \frac{100}{b} \right) \to \min_b  \]
+Дифференцируя, получим:
+\[\frac{900}{(1-b)^2} =  \frac{100}{b^2} \Rightarrow b = 0.25 \]
+\end{enumerate}
 \end{sol}
 \end{problem}
 
@@ -816,6 +894,10 @@ $C$ & 3 & 0 \\
 
 
 \begin{sol}
+\begin{enumerate}
+\item $|AB| = \sqrt{10}$, $\cos(ABC) = \frac{1}{\sqrt{5}}$
+\item $|AB| = 1$, $\cos(ABC) = e^{-8}$
+\end{enumerate}
 \end{sol}
 \end{problem}
 
@@ -829,6 +911,7 @@ f : (x_1,x_2) \to (1,x_1,x_2,3x_1 x_2, 2x_1^2, 4x_2^2).
 
 
 \begin{sol}
+$K(x, y) = 1 + x_1 y_1 + x_2 y_2 + 3x_1 x_2 \cdot 3 y_1 y_2 + 2 x_1^2 \cdot 2 y_1^2 + 4 x_2^2 \cdot 4 y_2^2$
 \end{sol}
 \end{problem}
 
@@ -864,6 +947,7 @@ $f(x_1,x_2)=(x_1^2,x_2^2,\sqrt{2}x_1x_2)$
   \end{enumerate}
 
 \begin{sol}
+Ядром является только функция в пункте 1.
 \end{sol}
 \end{problem}
 
@@ -1015,7 +1099,7 @@ $f(x_1,x_2)=(x_1^2,x_2^2,\sqrt{2}x_1x_2)$
 
 \begin{problem}
 Для случайных величин  $X$ и $Y$ найдите индекс Джини и энтропию
-
+% Вы хотели ещё добавить perplexity :)
 
 \begin{tabular}{lrr}
 \toprule
@@ -1032,6 +1116,9 @@ $\P(Y=y)$ & $0.2$ & $0.3$ & $0.5$ \\
 
 
 \begin{sol}
+$I_X = 1 - 0.2^2 - 0.8^2 = 0.32$, $H(X) = -(0.2 \ln 0.2 + 0.8 \ln 0.8) \approx 0.5$
+
+$I_Y = 1 - 0.2^2 - 0.3^2 - 0.5^2 = 0.62$, $H(Y) = -(0.2 \ln 0.2 + 0.3 \ln 0.3 + 0.5 \ln 0.5) \approx 1.03$
 \end{sol}
 \end{problem}
 
@@ -1046,7 +1133,12 @@ $\P(Y=y)$ & $0.2$ & $0.3$ & $0.5$ \\
 \end{enumerate}
 
 \begin{sol}
-  Если величина $X$ равновероятно принимает $k$ значений, то спутанность равна $k$. У равномерной на $[0;a]$ спутанность равна $a$.
+  \begin{enumerate}
+  \item $H(X) = \ln 3$, $I_X = 2/3$, спутанность равна $3$.
+  \item $I_X = 1-\frac{1}{k}$, $H(X) = \ln k$, спутанность равна $k$.
+  \item Если величина $X$ равновероятно принимает $k$ значений, то спутанность равна $k$. У равномерной на $[0;a]$ спутанность равна $a$. $H(X) = -\int_0^a \frac{1}{a} \cdot \ln \frac{1}{a} dx = \ln a$.
+  \item Обозначим $f(x) = \frac{1}{\sqrt{2 \pi \sigma^2}} \exp\left(-\frac{(x-\mu)^2}{2\sigma^2}\right)$, тогда $H(X) = -\int_{-\infty}^{+\infty} f(x) \ln (f(x)) dx$.
+ \end{enumerate}
 \end{sol}
 \end{problem}
 
@@ -1158,7 +1250,13 @@ $70$ & $7$ \\
 
 Как изменились индекс Джини и энтропия в результате такого разбиения?
 \begin{sol}
+Было: $I = 1 - \left(\frac{20}{70}\right)^2 - \left(\frac{40}{70}\right)^2- \left(\frac{2}{70}\right)^2- \left(\frac{8}{70}\right)^2 = \frac{708}{1225} \approx 0.58$,
 
+$H =-\left( \frac{20}{70} \ln \frac{20}{70} +  \frac{40}{70} \ln \frac{40}{70} +  \frac{2}{70} \ln \frac{2}{70} +  \frac{8}{70} \ln \frac{8}{70}  \right) \approx 1.03$.
+
+Стало: $I_L = 0$, $I_R = 1 - \left(\frac{20}{30}\right)^2 - \left(\frac{2}{30}\right)^2 - \left(\frac{8}{30}\right)^2 = 0.48$, $I = \frac{40}{70}\cdot 0 + \frac{30}{70} \cdot 0.48 \approx 0.21$,
+
+$H_L = 0$, $H_R = -\left(\frac{20}{30} \ln \frac{20}{30} + \frac{2}{30} \ln \frac{2}{30} + \frac{8}{30} \ln \frac{8}{30} \right) \approx 0.8$, $H =  \frac{40}{70}\cdot 0 + \frac{30}{70} \cdot 0.8 \approx 0.34$.
 \end{sol}
 \end{problem}
 
