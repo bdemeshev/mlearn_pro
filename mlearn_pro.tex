@@ -86,7 +86,7 @@ sorting = none]{biblatex}
 \item $d(XY) = dX \cdot Y +  X \cdot dY$
 \item $dA = 0$
 \item $d(X') = dX'$
-\item $d\det X = \tr (...) $
+\item $d\det X = \det X \tr (X^{-1} dX) $
 \end{enumerate}
 
 
@@ -721,9 +721,18 @@ loss(\beta_1, \beta_2) \approx 100 \ln 2 + 6 \beta_1 + 12 \beta_2 + \frac{1}{2}(
 \item Разложите $h(\beta_1, \beta_2)=\ln\Lambda(y_i(\beta_1 + \beta_2 x_i))$ в ряд Тейлора до второго порядка в окрестности точки $\beta_1=0$, $\beta_2=0$.
 \end{enumerate}
 
-   .
+
 \begin{sol}
-  $1$ и $0$.
+\begin{enumerate}
+\item $\Lambda(w) + \Lambda(-w) = 1$
+\item $\Lambda'(w) = -\Lambda'(-w)$
+\item
+\item $\Lambda(0) = 0.5$, $\Lambda'(0) = 0.25$, $\ln\Lambda(0) = -\ln 2$
+\item $\Lambda^{-1}(p) = \ln \frac{p}{1-p}$
+\item $\frac{d\ln\Lambda(w)}{dw} = \Lambda(-w)$
+\item $\frac{d\ln\Lambda(-w)}{dw} = -\Lambda(w)$
+\item
+\end{enumerate}
 \end{sol}
 \end{problem}
 
@@ -1022,7 +1031,6 @@ $w = (1/2, 1/2)$, $w_0 = 5.5$
 \end{problem}
 
 
-\newpage
 \section{Ядра к бою!}
 
 
@@ -1136,8 +1144,8 @@ $f(x_1,x_2)=(x_1^2,x_2^2,\sqrt{2}x_1x_2)$
 \end{problem}
 
 
-\begin{problem}
-Пусть $x$ и $z$ — строки символов, возможно разной длины. Рассмотрим две функции. Функция $K_1(x, z)$ равна единице, если строки $x$ и $z$ совпадают. Функция $K_2(x, z)$ — число совпадающих подстрок. Функция $K_3$ — произведение количеств букв «а» в обеих словах.
+\begin{problem} % уточнить, что K1 = 0 иначе
+Пусть $x$ и $z$ — строки символов, возможно разной длины. Рассмотрим две функции. Функция $K_1(x, z)$ равна единице, если строки $x$ и $z$ совпадают. Функция $K_2(x, z)$ — число совпадающих подстрок. Функция $K_3$ — произведение количеств букв «а» в обоих словах.
 \begin{enumerate}
   \item Найдите $K_1(\text{«мама»},\text{«ам»})$ и $K_2(\text{«мама»},\text{«ам»})$, $K_3(\text{«мама»},\text{«ам»})$
   \item Является ли функция $K_1$ ядром?
@@ -1146,6 +1154,12 @@ $f(x_1,x_2)=(x_1^2,x_2^2,\sqrt{2}x_1x_2)$
 \end{enumerate}
 
 \begin{sol}
+\begin{enumerate}
+\item $K_1(\text{«мама»},\text{«ам»}) = 0$, $K_2(\text{«мама»},\text{«ам»}) = 3$, $K_3(\text{«мама»},\text{«ам»}) = 2$
+\item Да
+\item Да
+\item
+\end{enumerate}
 \end{sol}
 \end{problem}
 
@@ -1229,12 +1243,36 @@ g(\lambda) = (-\lambda)^2 + \left(-\frac{3}{2}\lambda\right)^2 + \left(-\frac{5}
 \begin{problem}
 Выпишите прямую и двойственную задачу для метода опорных векторов в исходном пространстве.
 \begin{sol}
+Прямая задача:
+\[
+\begin{cases}
+\frac{1}{2} \left\Vert w \right\Vert^2 + C \sum_{i=1}^l \xi_i \to \min_{w, b, \xi} \\
+y_i (\langle w, x_i \rangle + b) \geq 1 - \xi_i, \quad i=1 \ldots l, \\
+\xi_i \geq 0, \quad i=1 \ldots l.
+\end{cases}
+\]
+
+Двойственная задача:
+\[
+\begin{cases}
+\sum_{i=1}^l \lambda_i - \frac{1}{2} \sum_{i, j=1}^l \lambda_i \lambda_j y_i y_j \langle x_i, x_j \rangle \to \max_{\lambda} \\
+0 \leq \lambda_i \leq C, \quad i=1 \ldots l, \\
+\sum_{i=1}^l \lambda_i y_i = 0.
+\end{cases}
+\]
 \end{sol}
 \end{problem}
 
 \begin{problem}
 Выпишите прямую и двойственную задачу для метода опорных векторов в спрямляющем пространстве с использованием ядра $K(.,.)$.
 \begin{sol}
+\[
+\begin{cases}
+\sum_{i=1}^l \lambda_i - \frac{1}{2} \sum_{i, j=1}^l \lambda_i \lambda_j y_i y_j K(x_i, x_j)\to \max_{\lambda} \\
+0 \leq \lambda_i \leq C, \quad i=1 \ldots l, \\
+\sum_{i=1}^l \lambda_i y_i = 0.
+\end{cases}
+\]
 \end{sol}
 \end{problem}
 
@@ -1350,9 +1388,9 @@ $\P(Y=y)$ & $0.2$ & $0.3$ & $0.5$ \\
 
 
 \begin{sol}
-$I_X = 1 - 0.2^2 - 0.8^2 = 0.32$, $H(X) = -(0.2 \ln 0.2 + 0.8 \ln 0.8) \approx 0.5$
+$I_X = 1 - 0.2^2 - 0.8^2 = 0.32$, $H(X) = -(0.2 \ln 0.2 + 0.8 \ln 0.8) \approx 0.5$, preplexity $\approx e^{0.5}$
 
-$I_Y = 1 - 0.2^2 - 0.3^2 - 0.5^2 = 0.62$, $H(Y) = -(0.2 \ln 0.2 + 0.3 \ln 0.3 + 0.5 \ln 0.5) \approx 1.03$
+$I_Y = 1 - 0.2^2 - 0.3^2 - 0.5^2 = 0.62$, $H(Y) = -(0.2 \ln 0.2 + 0.3 \ln 0.3 + 0.5 \ln 0.5) \approx 1.03$, perplexity $\approx e^{1.03}$
 \end{sol}
 \end{problem}
 
@@ -1710,6 +1748,34 @@ $100\cdot \left(\frac{99}{100} \right)^{100}\approx 100/e \approx 37$
 \item Найдите закон распределения бутстрэп статистики для максимума и минимума для данной выборки.
 \end{enumerate}
 \begin{sol}
+\begin{enumerate}
+\item $S = \bar x$
+
+\begin{tabular}{@{}lccccccccc@{}}
+\toprule
+$s$         & $300$          & $400$          & $500$          & $600$          & $700$          & $800$          & $900$          & $1000$         & $1200$         \\
+$\P(S = s)$ & $\frac{1}{27}$ & $\frac{3}{27}$ & $\frac{3}{27}$ & $\frac{4}{27}$ & $\frac{6}{27}$ & $\frac{3}{27}$ & $\frac{3}{27}$ & $\frac{3}{27}$ & $\frac{1}{27}$ \\ \bottomrule
+\end{tabular}
+\item $\E(X) = 700$, $\Var(X) = 14000/3$
+\item
+\begin{itemize}
+\item $S = \max\{x_1, x_2, x_3\}$
+
+\begin{tabular}{@{}lccc@{}}
+\toprule
+$s$         & $300$          & $600$          & $1200$           \\
+$\P(S = s)$ & $\frac{1}{27}$ & $\frac{7}{27}$ & $\frac{19}{27}$ \\ \bottomrule
+\end{tabular}
+
+\item $S = \min\{x_1, x_2, x_3\}$
+
+\begin{tabular}{@{}lccc@{}}
+\toprule
+$s$         & $300$          & $600$          & $1200$           \\
+$\P(S = s)$ & $\frac{19}{27}$ & $\frac{7}{27}$ & $\frac{1}{27}$ \\ \bottomrule
+\end{tabular}
+\end{itemize}
+\end{enumerate}
 \end{sol}
 \end{problem}
 
