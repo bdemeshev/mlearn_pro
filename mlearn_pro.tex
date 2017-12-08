@@ -2219,7 +2219,52 @@ p_{AB} = \frac{1}{3} \cdot \frac{1}{1+(1+5^2)/(1+3^2)} + \frac{1}{3} \cdot \frac
 \end{sol}
 \end{problem}
 
+\section{Факторизационные машины}
 
+\begin{problem}
+Рассмотрим факторизационную машину с прогнозом
+\[
+a(x) = w_0 + \sum_{j=1}^d w_j x_j + \sum_{j=1}^d \sum_{k=j+1}^d \langle v_j, v_k \rangle x_j x_k,
+\]
+где скрытые вектора $v_j$ имеют размерность $r$.
+
+\begin{enumerate}
+\item Сколько параметров имеет эта модель?
+\item Какое $r$ является теоретически максимально возможным для заданного $d$?
+\item Сколько ограничений нужно добавить к задаче обыкновенного МНК с регрессорами $w_j$ и $w_j w_k$ с $k>j$, чтобы она была эквивалентна факторизационной машине? Будут ли эти ограничения на параметры МНК линейными?
+\item Найдите градиент $a(x)$ по вектору $v_j$.
+\end{enumerate}
+
+\begin{sol}
+
+\end{sol}
+\end{problem}
+
+
+\begin{problem}
+Упростите выражение
+\[
+2 \sum_{j=1}^d \sum_{k=j+1}^d \langle v_j, v_k \rangle x_j x_k + \sum_{j=1}^d \langle v_i, v_i \rangle x_i^2 - \sum_{j=1}^d \sum_{k=1}^d \langle v_j, v_k \rangle x_j x_k
+\]
+\begin{sol}
+$0$
+\end{sol}
+\end{problem}
+
+\begin{problem}
+Пусть $W = V\cdot V'$ и матрица $V$ имеет размер $d \times 1$.
+
+\begin{enumerate}
+  \item Найдите матрицу $W$, если $V_{j1}=j$ и $d=3$;
+  \item Является ли матрица $W$ положительно определённой? Положительно полуопределённой?
+  \item Найдите собственные числа и собственные векторы матрицы $W$;
+\end{enumerate}
+
+
+\begin{sol}
+
+\end{sol}
+\end{problem}
 
 
 
