@@ -2307,6 +2307,54 @@ $0$
 \end{sol}
 \end{problem}
 
+\section{Ранжирование}
+
+\begin{problem}
+Рассмотрим классический алгоритм PageRank с единичной вероятностью продолжать клики. Каждый пользователь стартует со случайной равновероятно выбираемой страницы. Затем пользователь равновероятно переходит по одной из ссылок на следущую страницу. И так далее.
+
+\begin{tikzpicture}
+    \node (X) at (0,0) {x};
+    \node (Y) [below=2cm of X]  {y};% 2cm below, 1cm to the left (optional)
+    \node (Z) [right=2cm of X] {z};
+    \node (U) [below=2cm of Z]  {u};
+    \draw [semithick,->] (X) -- (Y);
+    \draw [semithick,->] (X) -- (Z);
+    \draw [semithick,->] (Y) -- (Z);
+    \draw [semithick,<->] (Y) -- (U);
+    \draw [semithick,<->] (Z) -- (U);
+\end{tikzpicture}
+
+
+Какой процент посещений от общего количества посещений будет у каждой страницы в долгосрочном периоде?
+
+\begin{sol}
+\end{sol}
+\end{problem}
+
+
+\begin{problem}
+Рассмотрим классический алгоритм PageRank с вероятностью продолжать клики равной $0.8$. Каждый пользователь стартует со случайной равновероятно выбираемой страницы. С вероятностью $0.2$ после просмотра страницы пользователь выключает компьютер и идёт гулять в парк. Если пользователь решил остаться за компьютером, то он равновероятно переходит по одной из ссылок на следущую страницу. И так далее.
+
+\begin{tikzpicture}
+    \node (X) at (0,0) {x};
+    \node (Y) [below=2cm of X]  {y};% 2cm below, 1cm to the left (optional)
+    \node (Z) [right=2cm of X] {z};
+    \node (U) [below=2cm of Z]  {u};
+    \draw [semithick,->] (X) -- (Y);
+    \draw [semithick,->] (X) -- (Z);
+    \draw [semithick,->] (Y) -- (Z);
+    \draw [semithick,<->] (Y) -- (U);
+    \draw [semithick,<->] (Z) -- (U);
+\end{tikzpicture}
+
+Какой процент посещений от общего количества посещений будет у каждой страницы в долгосрочном периоде?
+
+\begin{sol}
+\end{sol}
+\end{problem}
+
+
+
 
 \Closesolutionfile{solution_file}
 
