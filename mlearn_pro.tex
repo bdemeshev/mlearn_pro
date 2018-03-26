@@ -630,6 +630,62 @@ $\hat\P(y_i = 1|x_i) = \frac{1}{1+\exp(-\beta_1 - \beta_2 x_i)}$
 \end{sol}
 \end{problem}
 
+
+\section{Логистическая функция}
+
+Логистическое распределение? Перевод y=0/1 в y=-1/1. Максимум правдоподобия в минимум штрафа? Предельные эффекты?
+
+\begin{problem}
+Рассмотрим логистическую функцию $\Lambda(w) = e^w / (1 + e^w)$.
+\begin{enumerate}
+\item Как связаны между собой $\Lambda(w)$ и  $\Lambda(-w)$?
+\item Как связаны между собой $\Lambda'(w)$ и  $\Lambda'(-w)$?
+\item Постройте графики функций $\Lambda(w)$ и $\Lambda'(w)$.
+\item Найдите $\Lambda(0)$, $\Lambda'(0)$, $\ln\Lambda(0)$.
+\item Найдите обратную функцию $\Lambda^{-1}(p)$.
+\item Как связаны между собой $\frac{d\ln\Lambda(w)}{dw}$ и $\Lambda(-w)$?
+\item Как связаны между собой $\frac{d\ln\Lambda(-w)}{dw}$ и $\Lambda(w)$?
+\item Разложите $h(\beta_1, \beta_2)=\ln\Lambda(y_i(\beta_1 + \beta_2 x_i))$ в ряд Тейлора до второго порядка в окрестности точки $\beta_1=0$, $\beta_2=0$.
+\end{enumerate}
+
+
+\begin{sol}
+\begin{enumerate}
+\item $\Lambda(w) + \Lambda(-w) = 1$
+\item $\Lambda'(w) = -\Lambda'(-w)$
+\item
+\item $\Lambda(0) = 0.5$, $\Lambda'(0) = 0.25$, $\ln\Lambda(0) = -\ln 2$
+\item $\Lambda^{-1}(p) = \ln \frac{p}{1-p}$
+\item $\frac{d\ln\Lambda(w)}{dw} = \Lambda(-w)$
+\item $\frac{d\ln\Lambda(-w)}{dw} = -\Lambda(w)$
+\item
+\end{enumerate}
+\end{sol}
+\end{problem}
+
+
+\begin{problem}
+Исследовательница Октябрина пытается предсказать, купит ли покупатель слона. Октябрина предполагает, что у каждого покупателя есть ненаблюдаемая полезность от покупки слона, $y_i^*$, складывающаяся из величины $w_i$, зависящей от характеристик покупателя, и случайной составляющей $u_i$:
+\[
+y_i^* = w_i + u_i, \quad u_i \sim Logistic
+\]
+Покупка слона, $y_i$, ($1$ — купит, $0$ — не купит) однозначно определяется полезностью покупки:
+\[
+y_i = \begin{cases}
+1, \text{ если } y_i^* \geq 0 \\
+1, \text{ если } y_i^* < 0 \\
+\end{cases}
+\]
+
+\begin{enumerate}
+\item Выпишите логарифмическую функцию правдоподобия и функцию потерь при известных $w_i$.
+\item Как изменится ответ, если факт покупки слона будет кодироваться по-другому: $1$ — купит, $(-1)$ — не купит?
+\item Разложите функцию потерь в ряд Тейлора до второго члена в окрестности точки $w_0=(w_{01}, w_{02}, \ldots, w_{0n})$.
+\end{enumerate}
+\begin{sol}
+\end{sol}
+\end{problem}
+
 \begin{problem}
 Рассмотрим целевую функцию логистической регрессии с константой
 \[
@@ -697,62 +753,6 @@ loss(\beta_1, \beta_2) \approx 100 \ln 2 + 6 \beta_1 + 12 \beta_2 + \frac{1}{2}(
 
 \begin{sol}
 Предельный эффект максимален при максимальной производной $\Lambda'(\hat \beta_1 + \hat\beta_2x + \hat\beta_3z)$, то есть при $\hat \beta_1 + \hat\beta_2x + \hat\beta_3z=0$.
-\end{sol}
-\end{problem}
-
-
-\section{Логистическая функция}
-
-Логистическое распределение? Перевод y=0/1 в y=-1/1. Максимум правдоподобия в минимум штрафа? Предельные эффекты?
-
-\begin{problem}
-Рассмотрим логистическую функцию $\Lambda(w) = e^w / (1 + e^w)$.
-\begin{enumerate}
-\item Как связаны между собой $\Lambda(w)$ и  $\Lambda(-w)$?
-\item Как связаны между собой $\Lambda'(w)$ и  $\Lambda'(-w)$?
-\item Постройте графики функций $\Lambda(w)$ и $\Lambda'(w)$.
-\item Найдите $\Lambda(0)$, $\Lambda'(0)$, $\ln\Lambda(0)$.
-\item Найдите обратную функцию $\Lambda^{-1}(p)$.
-\item Как связаны между собой $\frac{d\ln\Lambda(w)}{dw}$ и $\Lambda(-w)$?
-\item Как связаны между собой $\frac{d\ln\Lambda(-w)}{dw}$ и $\Lambda(w)$?
-\item Разложите $h(\beta_1, \beta_2)=\ln\Lambda(y_i(\beta_1 + \beta_2 x_i))$ в ряд Тейлора до второго порядка в окрестности точки $\beta_1=0$, $\beta_2=0$.
-\end{enumerate}
-
-
-\begin{sol}
-\begin{enumerate}
-\item $\Lambda(w) + \Lambda(-w) = 1$
-\item $\Lambda'(w) = -\Lambda'(-w)$
-\item
-\item $\Lambda(0) = 0.5$, $\Lambda'(0) = 0.25$, $\ln\Lambda(0) = -\ln 2$
-\item $\Lambda^{-1}(p) = \ln \frac{p}{1-p}$
-\item $\frac{d\ln\Lambda(w)}{dw} = \Lambda(-w)$
-\item $\frac{d\ln\Lambda(-w)}{dw} = -\Lambda(w)$
-\item
-\end{enumerate}
-\end{sol}
-\end{problem}
-
-
-\begin{problem}
-Исследовательница Октябрина пытается предсказать, купит ли покупатель слона. Октябрина предполагает, что у каждого покупателя есть ненаблюдаемая полезность от покупки слона, $y_i^*$, складывающаяся из величины $w_i$, зависящей от характеристик покупателя, и случайной составляющей $u_i$:
-\[
-y_i^* = w_i + u_i, \quad u_i \sim Logistic
-\]
-Покупка слона, $y_i$, ($1$ — купит, $0$ — не купит) однозначно определяется полезностью покупки:
-\[
-y_i = \begin{cases}
-1, \text{ если } y_i^* \geq 0 \\
-1, \text{ если } y_i^* < 0 \\
-\end{cases}
-\]
-
-\begin{enumerate}
-\item Выпишите логарифмическую функцию правдоподобия и функцию потерь при известных $w_i$.
-\item Как изменится ответ, если факт покупки слона будет кодироваться по-другому: $1$ — купит, $(-1)$ — не купит?
-\item Разложите функцию потерь в ряд Тейлора до второго члена в окрестности точки $w_0=(w_{01}, w_{02}, \ldots, w_{0n})$.
-\end{enumerate}
-\begin{sol}
 \end{sol}
 \end{problem}
 
