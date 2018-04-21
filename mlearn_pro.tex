@@ -9,7 +9,8 @@
 \input{emetrix_preamble}
 
 
-\usepackage{minted}
+\usepackage{minted} % оформление кода, требуется питон за кадром
+\usepackage{caption} % для вставки \captionof внутри окружения minipage без окружения figure
 
 \usepackage[bibencoding = auto, backend = biber,
 sorting = none]{biblatex}
@@ -878,6 +879,77 @@ $H = UU'$
 $H = QQ'$
 \end{sol}
 \end{problem}
+
+
+\subsection{SVD-фея}
+
+
+
+\begin{problem}
+  Посмотрие на классное отражение ходулочника в воде :)
+
+\begin{minipage}{0.6\textwidth}
+\begin{center}
+\includegraphics[scale=0.6]{images/Black-necked_Stilt_Corte_Madera.jpg}
+\end{center}
+\captionof{figure}{\href{https://commons.wikimedia.org/w/index.php?curid=29091464}{Frank Schulenburg, CC BY-SA 3.0}}
+
+  \end{minipage}
+
+
+  \begin{enumerate}
+    \item Найдите матрицу, которая выполняет отражение относительно плоскости, ортогональной вектору $w'=(1, 2, 3)$. 
+    \item Как будет выглядеть матрица отражения $U$ относительно гипер-плоскости ортогональной вектору $w$ в общем случае? 
+    \item Пусть $U$ матрица произвольного отражения. Верно ли, что $U^{T}=U$? Верно ли, что $U^2=I$?
+  \end{enumerate}
+\begin{sol}
+  $U=I - \frac{2}{w'w}ww'$, $U^2=I$ и $U'=U$.
+\end{sol}
+\end{problem}
+
+
+\begin{problem}
+  Найдите такой вектор $w$, чтобы отражение относительно плоскости, ортогональной вектору $w$, переводило вектор $(2, 5, -3)'$ в вектор $(a, 0, 0)$. Выпишите матрицу соответствующего отражения.
+
+\begin{sol}
+  Замечаем, что отражение сохраняет длины, поэтому $a^2 = 2^2 + 5^2 + (-3)^2$. А дальше берём $w = (2, 5, -3)' - (a, 0, 0)'$, так как эта разница ортогональна плоскости, относительно которой выполняется отражение. 
+  Матрица отражения равна $I - \frac{2}{w'w}ww'$.
+\end{sol}
+\end{problem}
+
+
+\begin{problem}
+Задана матрица $X$:
+\[
+  X = \begin{pmatrix}
+    5 & 6 & -3 \\
+    2 & -4 & 1 \\
+    3 & 2 & 1\\
+  \end{pmatrix}
+\]
+Найдите такую последовательность отражений, которая превращает матрицу $X$ в бидиагональную матрицу $\Sigma$. То есть у матрицы $\Sigma$ только на главной диагонали и на линии выше главной диагонали могут стоять ненулевые числа. Отражения можно применять слева и справа:
+\[
+X = U_2 U_1 \Sigma V_1'
+\]
+\begin{sol}
+  $I - \frac{2}{w'w}ww'$
+\end{sol}
+\end{problem}
+
+
+
+\begin{problem}
+  Как выглядит матрица $U$, поворачивающая двумерные вектора на угол $\alpha$ по часовой стрелке? Как связаны $U^T$ и $U^{-1}$? 
+\begin{sol}
+  \[
+    U = \begin{pmatrix}
+      \cos \alpha & \sin \alpha \\
+      -\sin \alpha & \cos \alpha \\
+    \end{pmatrix}
+  \]
+\end{sol}
+\end{problem}
+
 
 \section{Метод опорных векторов}
 
@@ -2139,6 +2211,15 @@ z \sim \begin{cases}
 
 
 \begin{problem}
+  Заблудившись в лесу Иван Сусанин в отчаянии бросает карту леса на землю. 
+  Докажите, что на земле найдётся такая точка, которая идеально точно находится под своим изображением на карте.
+  \begin{sol}
+
+  \end{sol}
+\end{problem}
+
+
+\begin{problem}
   Вывод BB-метода \url{http://www.math.ucla.edu/~wotaoyin/math273a/slides/Lec4a_Baizilai_Borwein_method_273a_2015_f.pdf}.
 
   \begin{sol}
@@ -2172,6 +2253,18 @@ SGD для логистической регрессии: сделать два 
 
 \end{sol}
 \end{problem}
+
+
+
+
+\begin{problem}
+Нарисуйте кляксу. Нарисуйте внутри кляксы треугольник. С помощью алгоритма Нелдера-Мида найдите точку, наиболее удалённую от границы кляксы.
+\begin{sol}
+  \url{http://www.jasoncantarella.com/downloads/NelderMeadProof.pdf} и \url{http://www.scholarpedia.org/article/Nelder-Mead_algorithm}
+\end{sol}
+\end{problem}
+
+
 
 
 
