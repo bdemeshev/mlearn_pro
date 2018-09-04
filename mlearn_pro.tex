@@ -759,7 +759,60 @@ loss(\beta_1, \beta_2) \approx 100 \ln 2 + 6 \beta_1 + 12 \beta_2 + \frac{1}{2}(
 
 
 
-\section{Разложения матриц}
+\section{Разложения матриц и немного линейной алгебры}
+
+\begin{problem}
+	Как должны быть связаны матрицы $A$ и $B$, чтобы $\langle Ax, y\rangle = \langle A, By \rangle$ равнялись для любых векторов $x$ и $y$?
+
+\begin{sol}
+$B = A^T$
+\end{sol}	
+\end{problem}
+
+
+\begin{problem}
+Известно, что $UU^T= I$, где $I$ — единичная матрица. Докажите, что 
+\begin{enumerate}
+	\item $U^TU = I$;
+	\item Длина векторов $x$ и $Ux$ всегда одинаковая.
+	\item Угол между векторами $x$ и $y$ такой же, как между векторами $Ux$ и $Uy$;
+\end{enumerate}
+\begin{sol}
+	$(Ux)'Ux=x'U'Ux=x'x$, $(Ux)'Uy=x'U'Uy=x'y$.
+\end{sol}	
+\end{problem}
+
+
+\begin{problem}
+Найдите SVD-разложение матриц
+\begin{enumerate}
+	\item 
+$X = \begin{pmatrix}
+0 & -7 \\
+0 & 0 \\
+0 & 0 \\
+\end{pmatrix}$;
+\item 
+$X = \begin{pmatrix}
+1 & 2 \\
+2 & 1 \\
+\end{pmatrix}$;
+\item 
+$\begin{pmatrix}
+3 \\
+4 \\
+\end{pmatrix}$;
+\item 
+$\begin{pmatrix}
+1 & 1 \\
+2 & 2 \\
+2 & 2 \\
+\end{pmatrix}$
+\end{enumerate}
+
+\begin{sol}
+\end{sol}	
+\end{problem}
 
 
 \begin{problem}
