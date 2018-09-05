@@ -158,7 +158,7 @@ Q(\hb) = (y - X\hb)'(y - X\hb).
 
 \begin{sol}
 \begin{enumerate}
-\item $dQ(\hb) = 2(y-X\hb)^T (-X) d\hb$, $d^2Q(\hb) = 2d\hb X^T X d\hb$
+\item $dQ(\hb) = 2(y-X\hb)^T (-X) d\hb$, $d^2Q(\hb) = 2d\hb^T X^T X d\hb$
 \item $dQ(\hb) = 0$
 \item $\hb = (X^T X)^{-1} X^T y$
 \end{enumerate}
@@ -743,7 +743,7 @@ y_i^* = w_i + u_i, \quad u_i \sim Logistic
 \[
 y_i = \begin{cases}
 1, \text{ если } y_i^* \geq 0 \\
-1, \text{ если } y_i^* < 0 \\
+0, \text{ если } y_i^* < 0 \\
 \end{cases}
 \]
 
@@ -813,7 +813,7 @@ $
 \end{pmatrix}
 \begin{pmatrix}
 1/\sqrt{2} & 1/\sqrt{2} \\
-1s/\sqrt{2} & -1/\sqrt{2} \\
+1/\sqrt{2} & -1/\sqrt{2} \\
 \end{pmatrix}
 $
 \item $XX' =
