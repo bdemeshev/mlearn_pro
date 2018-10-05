@@ -85,7 +85,7 @@ sorting = none]{biblatex}
 
 \begin{enumerate}
 \item $d(XY) = dX \cdot Y +  X \cdot dY$
-\item $dA = 0$
+\item Если $A$ — матрица констант, то $dA = 0$
 \item $d(X') = dX'$
 \item $d\det X = \det X \tr (X^{-1} dX) $
 \end{enumerate}
@@ -754,6 +754,16 @@ loss(\beta_1, \beta_2) \approx 100 \ln 2 + 6 \beta_1 + 12 \beta_2 + \frac{1}{2}(
 
 \begin{sol}
 Предельный эффект максимален при максимальной производной $\Lambda'(\hat \beta_1 + \hat\beta_2x + \hat\beta_3z)$, то есть при $\hat \beta_1 + \hat\beta_2x + \hat\beta_3z=0$.
+\end{sol}
+\end{problem}
+
+\begin{problem}
+Бандерлог из Лога оценил логистическую регрессию $\ln \frac{\hat\P(y_i=1)}{\hat\P(y_i=0)} = 2 - x + 3z$.
+
+В осях $(x, z)$ нарисуйте линии $\hat\P(y_i = 1)=0.5$, $\hat\P(y_i = 1)=0.99$ и $\hat\P(y_i=0.01)$
+
+\begin{sol}
+$\hat\P(y_i = 1)=0.5$ в нужных осях является прямой: $2-x+3z=0$.
 \end{sol}
 \end{problem}
 
