@@ -674,7 +674,7 @@ y_i^* = w_i + u_i, \quad u_i \sim Logistic
 \[
 y_i = \begin{cases}
 1, \text{ если } y_i^* \geq 0 \\
-1, \text{ если } y_i^* < 0 \\
+0, \text{ если } y_i^* < 0 \\
 \end{cases}
 \]
 
@@ -764,6 +764,20 @@ loss(\beta_1, \beta_2) \approx 100 \ln 2 + 6 \beta_1 + 12 \beta_2 + \frac{1}{2}(
 
 \begin{sol}
 $\hat\P(y_i = 1)=0.5$ в нужных осях является прямой: $2-x+3z=0$.
+\end{sol}
+\end{problem}
+
+
+\begin{problem}
+Какие утверждения верны для логистической регрессии с константой?
+\begin{enumerate}
+  \item $\sum_{i=1}^n \hat \P(y_i = 1) = \text{количество } y_i { в выборке, равных единице}$
+  \item $\sum_{i=1}^n \hat \P(y_i = 0) = \text{количество } y_i { в выборке, равных нулю}$
+  \item $\sum_{y_i=1} \hat \P(y_i = 0) = \sum_{y_i=0} \hat \P(y_i = 1)$
+  \item $\sum_{y_i=0} \hat \P(y_i = 0) = \sum_{y_i=1} \hat \P(y_i = 1)$  
+\end{enumerate}
+
+\begin{sol}
 \end{sol}
 \end{problem}
 
