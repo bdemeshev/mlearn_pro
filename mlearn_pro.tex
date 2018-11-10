@@ -2113,6 +2113,84 @@ $y_i$ & $0$ & $1$ & $1$ & $0$ & $0$ \\
 \end{problem}
 
 
+\begin{problem}
+В ходе применения алгоритма \verb|xgboost| машин-лёрнер Василий построил дерево.
+Для каждого узла указано изменение индекса Джини. Машин-лёрнер Василий хочет подрезать
+дерево так, чтобы минимизировать финальный индекс Джини с учётом штрафа $0.05$
+за каждое деление узла на два.
+
+Как следует Василию подрезать дерево?
+
+\begin{tikzpicture}[grow=down] % дерево
+\tikzstyle{mystart} = [circle, minimum width=3pt,fill, inner sep=0pt] % starting node style
+\tikzstyle{mydot} = [circle, minimum width=2pt,fill, inner sep=0pt] % decision node style
+\tikzstyle{level 1}=[sibling distance=2.5cm] % расстояние между соседними узлами на одном уровне
+\tikzstyle{level 2}=[sibling distance=1.5cm]
+\tikzstyle{level 3}=[sibling distance=0.4cm]
+
+\node[mystart, label=right: {$-0.2$}] {} % создаем узел типа mydot, с пометкой "N" сверху и пустым текстом внутри узла
+    child { node[mydot, label=left: {$-0.02$}] (a) {}
+                	child {	node[mydot, label=left: {$-0.06$}] {}
+                    child { node[mydot, label=below: {}] {}
+                    edge from parent node[left] {} }
+                    child { node[mydot, label=below: {}] {}
+                    edge from parent node[right] {} }
+                	edge from parent node[left] {}}
+                	child {	node[mydot, label=left: {$-0.03$}] {}
+                    child { node[mydot, label=below: {}] {}
+                    edge from parent node[left] {} }
+                    child { node[mydot, label=below: {}] {}
+                    edge from parent node[right] {} }
+                	edge from parent node[right] {}  }
+    edge from parent node[above left] {} }
+    child { node[mydot, label=right: {$-0.01$}] {}
+                	child {	node[mydot, label=right: {$-0.1$}] {}
+                    child { node[mydot, label=below: {}] {}
+                    edge from parent node[left] {} }
+                    child { node[mydot, label=below: {}] {}
+                    edge from parent node[right] {} }
+                	edge from parent node[left] {}}
+                	child {	node[mydot, label=right: {$-0.04$}] {}
+                    child { node[mydot, label=below: {}] {}
+                    edge from parent node[left] {} }
+                    child { node[mydot, label=below: {}] {}
+                    edge from parent node[right] {} }
+               	edge from parent node[right] {}  }
+    edge from parent node[above right] {} } ;
+\end{tikzpicture}
+\begin{sol}
+  Подрезаем дерево с конца по методу обратной индукции.
+
+
+  \begin{tikzpicture}[grow=down] % дерево
+  \tikzstyle{mystart} = [circle, minimum width=3pt,fill, inner sep=0pt] % starting node style
+  \tikzstyle{mydot} = [circle, minimum width=2pt,fill, inner sep=0pt] % decision node style
+  \tikzstyle{level 1}=[sibling distance=2.5cm] % расстояние между соседними узлами на одном уровне
+  \tikzstyle{level 2}=[sibling distance=1.5cm]
+  \tikzstyle{level 3}=[sibling distance=0.4cm]
+
+  \node[mystart, label=right: {$-0.2$}] {} % создаем узел типа mydot, с пометкой "N" сверху и пустым текстом внутри узла
+      child { node[mydot, label=left: {}] (a) {}
+      edge from parent node[right] {}  }
+      child { node[mydot, label=right: {$-0.01$}] {}
+                  	child {	node[mydot, label=right: {$-0.1$}] {}
+                      child { node[mydot, label=below: {}] {}
+                      edge from parent node[left] {} }
+                      child { node[mydot, label=below: {}] {}
+                      edge from parent node[right] {} }
+                  	edge from parent node[left] {}}
+                  	child {	node[mydot, label=right: {}] {}
+                    edge from parent node[right] {} }
+                 	edge from parent node[right] {}  };
+  \end{tikzpicture}
+
+
+
+\end{sol}
+\end{problem}
+
+
+
 \section{Бэггинг и бустинг}
 
 
