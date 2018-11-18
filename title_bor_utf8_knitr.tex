@@ -39,15 +39,12 @@
 % а с cmap не работает печать на принтер ;)
 \usepackage{verbatim} % для многострочных комментариев
 \usepackage{makeidx} % для создания предметных указателей
-\usepackage[X2, T2A]{fontenc}
-\usepackage[utf8]{inputenc} % задание utf8 кодировки исходного tex файла
 \usepackage{setspace}
 \usepackage{amsmath, amsfonts, amssymb, amsthm}
 \usepackage{mathrsfs} % sudo yum install texlive-rsfs
 \usepackage{dsfont} % sudo yum install texlive-doublestroke
 \usepackage{array, multicol, multirow, bigstrut} % sudo yum install texlive-multirow
 \usepackage{indentfirst} % установка отступа в первом абзаце главы
-\usepackage[russian]{babel} % выбор языка для документа
 \usepackage{bm}
 \usepackage{bbm} % шрифт с двойными буквами
 %\usepackage[perpage]{footmisc}
@@ -55,7 +52,7 @@
 \usepackage{dcolumn} % центрирование по разделителю для apsrtable
 
 % создание гиперссылок в pdf
-\usepackage[pdftex, unicode, colorlinks=true, urlcolor=blue, hyperindex, breaklinks]{hyperref}
+\usepackage[unicode, colorlinks=true, urlcolor=blue, hyperindex, breaklinks]{hyperref}
 
 % свешиваем пунктуацию
 % теперь знаки пунктуации могут вылезать за правую границу текста, при этом текст выглядит ровнее
@@ -87,7 +84,6 @@
 \usepackage{numprint} % sudo yum install texlive-numprint
 \npthousandsep{,}\npthousandthpartsep{}\npdecimalsign{.}
 
-\usepackage{embedfile} % Чтобы код LaTeXа включился как приложение в PDF-файл
 
 \usepackage{subfigure} % для создания нескольких рисунков внутри одного
 
@@ -116,6 +112,19 @@
 
 
 
+\usepackage{fontspec} % что-то про шрифты?
+\usepackage{polyglossia} % русификация xelatex
+
+\setmainlanguage{russian}
+\setotherlanguages{english}
+
+% download "Linux Libertine" fonts:
+% http://www.linuxlibertine.org/index.php?id=91&L=1
+\setmainfont{Linux Libertine O} % or Helvetica, Arial, Cambria
+% why do we need \newfontfamily:
+% http://tex.stackexchange.com/questions/91507/
+\newfontfamily{\cyrillicfonttt}{Linux Libertine O}
+
 %\usepackage{asymptote} % пакет для рисовки графики, должен идти после graphics
 % но мы переходим на tikz :)
 
@@ -131,11 +140,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-%%%%%%%%%%%%%%%%%%%%%%%  Внедрение tex исходников в pdf файл  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\embedfile[desc={Main tex file}]{\jobname.tex} % Включение кода в выходной файл
-\embedfile[desc={title_bor}]{title_bor_utf8_knitr.tex}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 

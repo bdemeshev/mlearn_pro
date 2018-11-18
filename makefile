@@ -10,7 +10,7 @@ $(file_name).pdf: $(file_name).tex
 
 	# create pdf
 	# will automatically run pdflatex/biber if necessary
-	latexmk -pdf -shell-escape $(file_name).tex
+	latexmk -xelatex -shell-escape $(file_name).tex
 
 	# clean auxillary files
 	latexmk -c $(file_name).tex
@@ -21,4 +21,3 @@ $(file_name).pdf: $(file_name).tex
 
 clean:
 	-rm $(file_name).pdf $(file_name).fls $(file_name).log $(file_name).out $(file_name).aux $(file_name).fdb_latexmk $(file_name)-concordance.tex
-

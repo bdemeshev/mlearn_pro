@@ -1,5 +1,6 @@
 all_solutions.tex
-mlearn_pro.bbl
-mlearn_pro.run.xml
+*.bbl
+*.run.xml
+*.xdv
 
 .DS_Store
