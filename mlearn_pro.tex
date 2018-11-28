@@ -2192,7 +2192,12 @@ $y_i$ & $0$ & $1$ & $1$ & $0$ & $0$ \\
 \end{sol}
 \end{problem}
 
-
+\begin{problem}
+Постройте пример, в котором индекс Джини больше $0.99$.
+\begin{sol}
+В мешке лежит 1000 наблюдений, все разных типов!
+\end{sol}
+\end{problem}
 
 \section{Бэггинг и бустинг}
 
@@ -2412,6 +2417,20 @@ $y_i$ & 6 & 6 & 12 & 18 \\
 \begin{sol}
 \end{sol}
 \end{problem}
+
+\begin{problem}
+Количество мёда в горшках, которое Винни-Пух хочет съесть в гостях, можно представить в виде $y_i = 5 + u_i$, где $u_i$ имеет равномерное распределение $u_i \sim \mathcal{U}[-2;2]$, а $i$ — номер визита в гости.
+
+При прогнозировании аппетита Винни-Пуха Кролик абсолютно игнорирует все его прошлые визиты и просто подкидывает правильную монетку восемь раз. При каждом выпадении орла, Кролик ставит на стол очередной горшок мёда из глубоких запасов.
+
+Постройте разложение квадратичной функции потерь прогноза Кролика на компоненты дисперсии, смещения и шума.
+
+\begin{sol}
+
+\end{sol}
+
+\end{problem}
+
 
 \section{Случайные проекции}
 
@@ -2714,7 +2733,7 @@ D_{KL}(p||q) = \E(\ln p(X)) - \E(\ln q(X))
 
 \begin{sol}
 \begin{enumerate}
-\item $D_{KL} (p||q) = 3 \cdot \frac{1}{3} \ln 3 - \left(\frac{1}{3} \ln \left(\frac{2}{3}\right)^2 + \frac{1}{3} \ln \left(\frac{4}{9}\right) + \frac{1}{3} \ln \left(\frac{1}{3}\right)^2 \right)   = \ln 3 - \frac{4}{3} \ln 2 \approx 0.17$
+\item $D_{KL} (p||q) = 3 \cdot \frac{1}{3} \ln \frac{1}{3} - \left(\frac{1}{3} \ln \left(\frac{2}{3}\right)^2 + \frac{1}{3} \ln \left(\frac{4}{9}\right) + \frac{1}{3} \ln \left(\frac{1}{3}\right)^2 \right)   = \ln 3 - \frac{4}{3} \ln 2 \approx 0.17$
 \item $D_{KL} (p||q) = \left(\frac{2}{3}\right)^2 \ln \left(\frac{2}{3}\right)^2 \cdot 2 + \left(\frac{1}{3}\right)^2 \ln \left(\frac{1}{3}\right)^2 - \ln\left(\frac{1}{3}\right) = \frac{16}{9} \ln 2 - \ln 3 \approx 0.134$
 \item Для удобства запишем выражение как логарифм частного:
 \[
