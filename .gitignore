@@ -2,5 +2,13 @@ all_solutions.tex
 *.bbl
 *.run.xml
 *.xdv
+*.fls
+*.aux
+*.bcf
+*.out
+*.log
+*.synctex.gz
+*.fdb_latexmk
+*.blg
 
 .DS_Store
